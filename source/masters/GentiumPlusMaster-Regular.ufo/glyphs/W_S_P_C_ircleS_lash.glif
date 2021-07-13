@@ -1,9 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="WSPCircleSlash" format="2">
-  <advance width="1220"/>
+  <advance width="970"/>
   <unicode hex="E422"/>
   <outline>
-    <component base="BallotBox"/>
+    <contour>
+      <point x="485" y="-30" type="curve" smooth="yes"/>
+      <point x="697" y="-30"/>
+      <point x="868" y="141"/>
+      <point x="868" y="353" type="curve" smooth="yes"/>
+      <point x="868" y="565"/>
+      <point x="697" y="736"/>
+      <point x="485" y="736" type="curve" smooth="yes"/>
+      <point x="273" y="736"/>
+      <point x="102" y="565"/>
+      <point x="102" y="353" type="curve" smooth="yes"/>
+      <point x="102" y="141"/>
+      <point x="273" y="-30"/>
+    </contour>
+    <contour>
+      <point x="485" y="77" type="curve" smooth="yes"/>
+      <point x="332" y="77"/>
+      <point x="209" y="200"/>
+      <point x="209" y="353" type="curve" smooth="yes"/>
+      <point x="209" y="506"/>
+      <point x="332" y="629"/>
+      <point x="485" y="629" type="curve" smooth="yes"/>
+      <point x="638" y="629"/>
+      <point x="761" y="506"/>
+      <point x="761" y="353" type="curve" smooth="yes"/>
+      <point x="761" y="200"/>
+      <point x="638" y="77"/>
+    </contour>
+    <contour>
+      <point x="157" y="-500" type="line"/>
+      <point x="190" y="-490"/>
+      <point x="220" y="-467"/>
+      <point x="247" y="-449" type="curve"/>
+      <point x="850" y="1235" type="line"/>
+      <point x="813" y="1257" type="line"/>
+      <point x="775" y="1247"/>
+      <point x="762" y="1231"/>
+      <point x="726" y="1208" type="curve"/>
+      <point x="120" y="-475" type="line"/>
+    </contour>
   </outline>
   <lib>
     <dict>

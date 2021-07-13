@@ -1,9 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="WSPPlusOrMinus" format="2">
-  <advance width="156"/>
+  <advance width="1588"/>
   <unicode hex="E417"/>
   <outline>
-    <component base="FracSlash.frac"/>
+    <contour>
+      <point x="537" y="3" type="curve"/>
+      <point x="1295" y="1207" type="line"/>
+      <point x="1270" y="1235" type="line"/>
+      <point x="1241" y="1229"/>
+      <point x="1207" y="1214"/>
+      <point x="1181" y="1203" type="curve"/>
+      <point x="419" y="0" type="line"/>
+      <point x="444" y="-30" type="line"/>
+      <point x="480" y="-21"/>
+      <point x="506" y="-12"/>
+    </contour>
+    <contour>
+      <point x="747" y="767" type="line"/>
+      <point x="757" y="789"/>
+      <point x="771" y="826"/>
+      <point x="777" y="853" type="curve"/>
+      <point x="753" y="877" type="line"/>
+      <point x="91" y="877" type="line"/>
+      <point x="79" y="851"/>
+      <point x="67" y="818"/>
+      <point x="60" y="791" type="curve"/>
+      <point x="85" y="767" type="line"/>
+    </contour>
+    <contour>
+      <point x="386" y="465" type="line"/>
+      <point x="415" y="471"/>
+      <point x="450" y="483"/>
+      <point x="476" y="496" type="curve"/>
+      <point x="476" y="1157" type="line"/>
+      <point x="452" y="1180" type="line"/>
+      <point x="423" y="1173"/>
+      <point x="386" y="1159"/>
+      <point x="361" y="1151" type="curve"/>
+      <point x="361" y="487" type="line"/>
+    </contour>
+    <contour>
+      <point x="1497" y="275" type="line"/>
+      <point x="1507" y="297"/>
+      <point x="1520" y="337"/>
+      <point x="1528" y="366" type="curve"/>
+      <point x="1503" y="390" type="line"/>
+      <point x="991" y="390" type="line"/>
+      <point x="979" y="364"/>
+      <point x="967" y="328"/>
+      <point x="960" y="299" type="curve"/>
+      <point x="985" y="275" type="line"/>
+    </contour>
   </outline>
   <lib>
     <dict>

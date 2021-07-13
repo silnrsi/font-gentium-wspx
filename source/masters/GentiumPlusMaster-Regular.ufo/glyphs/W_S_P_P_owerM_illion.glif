@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="WSPPowerMillion" format="2">
-  <advance width="2895"/>
+  <advance width="2995"/>
   <unicode hex="E436"/>
-  <anchor x="2578" y="530" name="L"/>
-  <anchor x="2584" y="1445" name="U"/>
   <outline>
-    <component base="MiddleDot"/>
-    <component base="DigitOne" xOffset="300"/>
-    <component base="DigitZero" xOffset="1261"/>
-    <component base="SupSix" xOffset="2222"/>
+    <component base="MiddleDot" xOffset="100" yOffset="-80"/>
+    <component base="DigitOne" xOffset="400"/>
+    <component base="DigitZero" xOffset="1361"/>
+    <component base="SupSix" xOffset="2322"/>
   </outline>
   <lib>
     <dict>

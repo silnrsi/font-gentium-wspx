@@ -1,9 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="WSPEqualSlash" format="2">
-  <advance width="899"/>
+  <advance width="970"/>
   <unicode hex="E420"/>
   <outline>
-    <component base="NotEqTo"/>
+    <contour>
+      <point x="844" y="485" type="line"/>
+      <point x="852" y="508"/>
+      <point x="866" y="544"/>
+      <point x="873" y="570" type="curve"/>
+      <point x="848" y="595" type="line"/>
+      <point x="128" y="595" type="line"/>
+      <point x="116" y="570"/>
+      <point x="104" y="537"/>
+      <point x="97" y="510" type="curve"/>
+      <point x="122" y="485" type="line"/>
+    </contour>
+    <contour>
+      <point x="844" y="155" type="line"/>
+      <point x="852" y="180"/>
+      <point x="866" y="212"/>
+      <point x="873" y="240" type="curve"/>
+      <point x="848" y="265" type="line"/>
+      <point x="128" y="265" type="line"/>
+      <point x="116" y="238"/>
+      <point x="104" y="209"/>
+      <point x="97" y="182" type="curve"/>
+      <point x="122" y="155" type="line"/>
+    </contour>
+    <contour>
+      <point x="157" y="-500" type="line"/>
+      <point x="190" y="-490"/>
+      <point x="220" y="-467"/>
+      <point x="247" y="-449" type="curve"/>
+      <point x="850" y="1235" type="line"/>
+      <point x="813" y="1257" type="line"/>
+      <point x="775" y="1247"/>
+      <point x="762" y="1231"/>
+      <point x="726" y="1208" type="curve"/>
+      <point x="120" y="-475" type="line"/>
+    </contour>
   </outline>
   <lib>
     <dict>
