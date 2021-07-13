@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="GrCapAlphaWPsiliPerisPros.Por.ISub" format="2">
-  <advance width="1384"/>
-  <outline>
-    <component base="GrCapAlpha" xOffset="174"/>
-    <component base="GrPsiliPeris.Por" xOffset="-24" yOffset="-70"/>
-    <component base="GrYpo" xOffset="1274"/>
-  </outline>
-</glyph>

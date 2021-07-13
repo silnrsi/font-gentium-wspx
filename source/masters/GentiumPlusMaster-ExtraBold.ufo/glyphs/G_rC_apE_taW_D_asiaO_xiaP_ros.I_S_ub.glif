@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="GrCapEtaWDasiaOxiaPros.ISub" format="2">
-  <advance width="2163"/>
-  <outline>
-    <component base="GrCapEta" xOffset="744"/>
-    <component base="GrDasiaOxia" yOffset="-100"/>
-    <component base="GrYpo" xOffset="1977"/>
-  </outline>
-</glyph>

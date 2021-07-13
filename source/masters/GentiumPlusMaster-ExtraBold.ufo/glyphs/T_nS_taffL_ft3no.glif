@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="TnStaffLft3no" format="2">
-  <advance width="165"/>
-  <anchor x="185" y="765" name="TL"/>
-  <outline>
-    <component base="TnLtrSpcFlatLeft"/>
-  </outline>
-</glyph>

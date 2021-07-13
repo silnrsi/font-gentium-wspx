@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="GrCapOmegaWPsiliPeris.Por" format="2">
-  <advance width="1607"/>
-  <outline>
-    <component base="GrCapOmega" xOffset="334"/>
-    <component base="GrPsiliPeris.Por" xOffset="-24" yOffset="-70"/>
-  </outline>
-</glyph>

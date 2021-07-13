@@ -2,7 +2,7 @@
 # this is a smith configuration file
 
 # set the default output folders for release docs
-DOCDIR = ["documentation", "web"]
+DOCDIR = ["documentation"]
 
 STANDARDS = 'references/v5'
 #STANDARDS = 'references/b1'

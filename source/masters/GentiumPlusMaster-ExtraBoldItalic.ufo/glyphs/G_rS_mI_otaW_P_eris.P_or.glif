@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="GrSmIotaWPeris.Por" format="2">
-  <advance width="621"/>
-  <outline>
-    <component base="GrSmIota"/>
-    <component base="GrPeris.Por" xOffset="-64"/>
-  </outline>
-</glyph>

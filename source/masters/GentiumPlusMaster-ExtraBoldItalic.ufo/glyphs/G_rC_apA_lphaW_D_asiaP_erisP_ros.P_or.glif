@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="GrCapAlphaWDasiaPerisPros.Por" format="2">
-  <advance width="1995"/>
-  <outline>
-    <component base="GrCapAlpha" xOffset="169"/>
-    <component base="GrDasiaPeris.Por" xOffset="-2" yOffset="-80"/>
-    <component base="GrPros" xOffset="1379"/>
-  </outline>
-</glyph>

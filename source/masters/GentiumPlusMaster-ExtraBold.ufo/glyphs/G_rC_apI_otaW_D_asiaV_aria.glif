@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="GrCapIotaWDasiaVaria" format="2">
-  <advance width="1525"/>
-  <unicode hex="1F3B"/>
-  <outline>
-    <component base="GrCapIota" xOffset="835"/>
-    <component base="GrDasiaVaria" yOffset="-100"/>
-  </outline>
-</glyph>

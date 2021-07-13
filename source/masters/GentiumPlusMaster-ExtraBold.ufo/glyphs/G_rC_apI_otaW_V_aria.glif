@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="GrCapIotaWVaria" format="2">
-  <advance width="1175"/>
-  <unicode hex="1FDA"/>
-  <outline>
-    <component base="GrCapIota" xOffset="485"/>
-    <component base="GrVaria" yOffset="-100"/>
-  </outline>
-</glyph>

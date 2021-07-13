@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="SmRomNumOneThousand" format="2">
-  <advance width="1592"/>
-  <unicode hex="217F"/>
-  <anchor x="907" y="1320" name="U"/>
-  <outline>
-    <component base="LtnSmM"/>
-  </outline>
-</glyph>

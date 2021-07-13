@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="GrSmOmegaWPsiliOxia" format="2">
-  <advance width="1534"/>
-  <unicode hex="1F64"/>
-  <outline>
-    <component base="GrSmOmega"/>
-    <component base="GrPsiliOxia" xOffset="424"/>
-  </outline>
-</glyph>

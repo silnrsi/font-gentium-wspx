@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="GrSmIotaWMacron" format="2">
-  <advance width="621"/>
-  <unicode hex="1FD1"/>
-  <outline>
-    <component base="GrSmIota"/>
-    <component base="CombMacron.LP" xOffset="771" yOffset="50"/>
-  </outline>
-</glyph>
