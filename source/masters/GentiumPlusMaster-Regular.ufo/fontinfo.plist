@@ -11,7 +11,7 @@
   <key>descender</key>
   <integer>-750</integer>
   <key>familyName</key>
-  <string>Gentium Plus WSP</string>
+  <string>Gentium Plus Master</string>
   <key>openTypeHeadCreated</key>
   <string>2021/07/13 21:22:31</string>
   <key>openTypeHheaAscender</key>
@@ -77,11 +77,11 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>openTypeNameManufacturerURL</key>
   <string>http://www.sil.org/</string>
   <key>openTypeNamePreferredFamilyName</key>
-  <string>Gentium Plus WSP</string>
+  <string>Gentium Plus Master</string>
   <key>openTypeNamePreferredSubfamilyName</key>
   <string>Regular</string>
   <key>openTypeNameUniqueID</key>
-  <string>SIL International: Gentium Plus WSP Regular: 2021</string>
+  <string>SIL International: Gentium Plus Master Regular: 2021</string>
   <key>openTypeNameVersion</key>
   <string>Version 6.050</string>
   <key>openTypeOS2CodePageRanges</key>
@@ -195,9 +195,9 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
     <integer>1320</integer>
   </array>
   <key>postscriptFontName</key>
-  <string>GentiumPlusWSP-Regular</string>
+  <string>GentiumPlusMaster</string>
   <key>postscriptFullName</key>
-  <string>Gentium Plus WSP Regular</string>
+  <string>Gentium Plus Master Regular</string>
   <key>postscriptOtherBlues</key>
   <array>
     <integer>-500</integer>
@@ -220,7 +220,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>postscriptUnderlineThickness</key>
   <integer>100</integer>
   <key>styleMapFamilyName</key>
-  <string>Gentium Plus WSP</string>
+  <string>Gentium Plus Master</string>
   <key>styleMapStyleName</key>
   <string>regular</string>
   <key>styleName</key>
