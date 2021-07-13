@@ -8658,6 +8658,42 @@
   <string>V_ulgF_racT_woT_hirds.glif</string>
   <key>VulgFracZeroThirds</key>
   <string>V_ulgF_racZ_eroT_hirds.glif</string>
+  <key>WSPBoxSlash</key>
+  <string>W_S_P_B_oxS_lash.glif</string>
+  <key>WSPCircleSlash</key>
+  <string>W_S_P_C_ircleS_lash.glif</string>
+  <key>WSPDblFlagSlash</key>
+  <string>W_S_P_D_blF_lagS_lash.glif</string>
+  <key>WSPEqualSlash</key>
+  <string>W_S_P_E_qualS_lash.glif</string>
+  <key>WSPFlagSlash</key>
+  <string>W_S_P_F_lagS_lash.glif</string>
+  <key>WSPFracSlashAlt</key>
+  <string>W_S_P_F_racS_lashA_lt.glif</string>
+  <key>WSPLoop</key>
+  <string>W_S_P_L_oop.glif</string>
+  <key>WSPLtnSmLBaselineTail</key>
+  <string>W_S_P_L_tnS_mL_B_aselineT_ail.glif</string>
+  <key>WSPPlusOrMinus</key>
+  <string>W_S_P_P_lusO_rM_inus.glif</string>
+  <key>WSPPlusOrMinusSlash</key>
+  <string>W_S_P_P_lusO_rM_inusS_lash.glif</string>
+  <key>WSPPowerBillion</key>
+  <string>W_S_P_P_owerB_illion.glif</string>
+  <key>WSPPowerBillionth</key>
+  <string>W_S_P_P_owerB_illionth.glif</string>
+  <key>WSPPowerMillion</key>
+  <string>W_S_P_P_owerM_illion.glif</string>
+  <key>WSPPowerMillionth</key>
+  <string>W_S_P_P_owerM_illionth.glif</string>
+  <key>WSPPowerTenThousand</key>
+  <string>W_S_P_P_owerT_enT_housand.glif</string>
+  <key>WSPPowerTenThousandth</key>
+  <string>W_S_P_P_owerT_enT_housandth.glif</string>
+  <key>WSPPowerThousand</key>
+  <string>W_S_P_P_owerT_housand.glif</string>
+  <key>WSPPowerThousandth</key>
+  <string>W_S_P_P_owerT_housandth.glif</string>
   <key>WonSgn</key>
   <string>W_onS_gn.glif</string>
   <key>WordJoiner</key>

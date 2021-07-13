@@ -5263,6 +5263,24 @@
     <string>ModTnYangPingDep</string>
     <string>ModTnYangQuDep</string>
     <string>ModTnYangRuDep</string>
+    <string>WSPPlusOrMinusSlash</string>
+    <string>WSPFracSlashAlt</string>
+    <string>WSPPlusOrMinus</string>
+    <string>WSPEqualSlash</string>
+    <string>WSPBoxSlash</string>
+    <string>WSPCircleSlash</string>
+    <string>WSPFlagSlash</string>
+    <string>WSPDblFlagSlash</string>
+    <string>WSPPowerBillionth</string>
+    <string>WSPPowerMillionth</string>
+    <string>WSPPowerTenThousandth</string>
+    <string>WSPPowerThousandth</string>
+    <string>WSPPowerThousand</string>
+    <string>WSPPowerTenThousand</string>
+    <string>WSPPowerMillion</string>
+    <string>WSPPowerBillion</string>
+    <string>WSPLtnSmLBaselineTail</string>
+    <string>WSPLoop</string>
   </array>
   <key>public.postscriptNames</key>
   <dict>
@@ -13918,6 +13936,42 @@
     <string>twothirds</string>
     <key>VulgFracZeroThirds</key>
     <string>uni2189</string>
+    <key>WSPBoxSlash</key>
+    <string>uniE421</string>
+    <key>WSPCircleSlash</key>
+    <string>uniE422</string>
+    <key>WSPDblFlagSlash</key>
+    <string>uniE424</string>
+    <key>WSPEqualSlash</key>
+    <string>uniE420</string>
+    <key>WSPFlagSlash</key>
+    <string>uniE423</string>
+    <key>WSPFracSlashAlt</key>
+    <string>uniE406</string>
+    <key>WSPLoop</key>
+    <string>uniE602</string>
+    <key>WSPLtnSmLBaselineTail</key>
+    <string>uniE501</string>
+    <key>WSPPlusOrMinus</key>
+    <string>uniE417</string>
+    <key>WSPPlusOrMinusSlash</key>
+    <string>uniE405</string>
+    <key>WSPPowerBillion</key>
+    <string>uniE437</string>
+    <key>WSPPowerBillionth</key>
+    <string>uniE430</string>
+    <key>WSPPowerMillion</key>
+    <string>uniE436</string>
+    <key>WSPPowerMillionth</key>
+    <string>uniE431</string>
+    <key>WSPPowerTenThousand</key>
+    <string>uniE435</string>
+    <key>WSPPowerTenThousandth</key>
+    <string>uniE432</string>
+    <key>WSPPowerThousand</key>
+    <string>uniE434</string>
+    <key>WSPPowerThousandth</key>
+    <string>uniE433</string>
     <key>WonSgn</key>
     <string>uni20A9</string>
     <key>WordJoiner</key>

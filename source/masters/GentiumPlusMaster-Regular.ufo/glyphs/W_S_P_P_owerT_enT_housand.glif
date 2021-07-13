@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="WSPPowerTenThousand" format="2">
+  <advance width="2895"/>
+  <unicode hex="E435"/>
+  <anchor x="2620" y="540" name="L"/>
+  <anchor x="2620" y="1445" name="U"/>
+  <outline>
+    <component base="MiddleDot"/>
+    <component base="DigitOne" xOffset="300"/>
+    <component base="DigitZero" xOffset="1261"/>
+    <component base="SupFour" xOffset="2222"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.85,0.26,0.06,1</string>
+    </dict>
+  </lib>
+</glyph>

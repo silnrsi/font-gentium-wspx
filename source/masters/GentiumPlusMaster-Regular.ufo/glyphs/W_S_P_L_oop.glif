@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="WSPLoop" format="2">
+  <advance width="1366"/>
+  <unicode hex="E602"/>
+  <outline>
+    <component base="Ampersand"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.85,0.26,0.06,1</string>
+    </dict>
+  </lib>
+</glyph>

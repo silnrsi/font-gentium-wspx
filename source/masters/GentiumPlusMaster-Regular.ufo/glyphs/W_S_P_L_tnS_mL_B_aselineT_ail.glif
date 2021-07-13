@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="WSPLtnSmLBaselineTail" format="2">
+  <advance width="556"/>
+  <unicode hex="E501"/>
+  <anchor x="409" y="-600" name="L"/>
+  <anchor x="344" y="1690" name="U"/>
+  <outline>
+    <component base="LtnSmLRetrHook"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.85,0.26,0.06,1</string>
+    </dict>
+  </lib>
+</glyph>
