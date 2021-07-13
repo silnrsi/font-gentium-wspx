@@ -6,6 +6,10 @@
   <string>_notdef.glif</string>
   <key>.null</key>
   <string>_null.glif</string>
+  <key>ACWBottomArrw</key>
+  <string>A_C_W_B_ottomA_rrw.glif</string>
+  <key>ACWTopArrw</key>
+  <string>A_C_W_T_opA_rrw.glif</string>
   <key>ActivateArbFormShaping</key>
   <string>A_ctivateA_rbF_ormS_haping.glif</string>
   <key>ActivateSymmetricSwapping</key>
@@ -26,6 +30,12 @@
   <string>A_tS_gn.glif</string>
   <key>AustralSign</key>
   <string>A_ustralS_ign.glif</string>
+  <key>BallotBox</key>
+  <string>B_allotB_ox.glif</string>
+  <key>BallotMrk</key>
+  <string>B_allotM_rk.glif</string>
+  <key>BallotMrkBox</key>
+  <string>B_allotM_rkB_ox.glif</string>
   <key>Because</key>
   <string>B_ecause.glif</string>
   <key>BitcoinSgn</key>
@@ -40,6 +50,10 @@
   <string>B_ullet.glif</string>
   <key>BulletOperator</key>
   <string>B_ulletO_perator.glif</string>
+  <key>CWBottomArrw</key>
+  <string>C_W_B_ottomA_rrw.glif</string>
+  <key>CWTopArrw</key>
+  <string>C_W_T_opA_rrw.glif</string>
   <key>Caret</key>
   <string>C_aret.glif</string>
   <key>CaretInsPt</key>
@@ -60,6 +74,8 @@
   <string>C_harT_ieB_lw.glif</string>
   <key>CheckMrk</key>
   <string>C_heckM_rk.glif</string>
+  <key>CheckMrkBox</key>
+  <string>C_heckM_rkB_ox.glif</string>
   <key>CircumAccent</key>
   <string>C_ircumA_ccent.glif</string>
   <key>Colon</key>
@@ -1364,6 +1380,8 @@
   <string>D_blL_owL_ine.glif</string>
   <key>DblPrime</key>
   <string>D_blP_rime.glif</string>
+  <key>DblSolidus</key>
+  <string>D_blS_olidus.glif</string>
   <key>DblVertLine</key>
   <string>D_blV_ertL_ine.glif</string>
   <key>DegreeSgn</key>
@@ -1376,42 +1394,82 @@
   <string>D_igitE_ight.glif</string>
   <key>DigitEight.Sophia</key>
   <string>D_igitE_ight.S_ophia.glif</string>
+  <key>DigitEight.dnom</key>
+  <string>D_igitE_ight.dnom.glif</string>
+  <key>DigitEight.numr</key>
+  <string>D_igitE_ight.numr.glif</string>
   <key>DigitFive</key>
   <string>D_igitF_ive.glif</string>
   <key>DigitFive.Sophia</key>
   <string>D_igitF_ive.S_ophia.glif</string>
+  <key>DigitFive.dnom</key>
+  <string>D_igitF_ive.dnom.glif</string>
+  <key>DigitFive.numr</key>
+  <string>D_igitF_ive.numr.glif</string>
   <key>DigitFour</key>
   <string>D_igitF_our.glif</string>
   <key>DigitFour.Sophia</key>
   <string>D_igitF_our.S_ophia.glif</string>
+  <key>DigitFour.dnom</key>
+  <string>D_igitF_our.dnom.glif</string>
+  <key>DigitFour.numr</key>
+  <string>D_igitF_our.numr.glif</string>
   <key>DigitNine</key>
   <string>D_igitN_ine.glif</string>
   <key>DigitNine.Sophia</key>
   <string>D_igitN_ine.S_ophia.glif</string>
+  <key>DigitNine.dnom</key>
+  <string>D_igitN_ine.dnom.glif</string>
+  <key>DigitNine.numr</key>
+  <string>D_igitN_ine.numr.glif</string>
   <key>DigitOne</key>
   <string>D_igitO_ne.glif</string>
   <key>DigitOne.Sophia</key>
   <string>D_igitO_ne.S_ophia.glif</string>
+  <key>DigitOne.dnom</key>
+  <string>D_igitO_ne.dnom.glif</string>
+  <key>DigitOne.numr</key>
+  <string>D_igitO_ne.numr.glif</string>
   <key>DigitSeven</key>
   <string>D_igitS_even.glif</string>
   <key>DigitSeven.Sophia</key>
   <string>D_igitS_even.S_ophia.glif</string>
+  <key>DigitSeven.dnom</key>
+  <string>D_igitS_even.dnom.glif</string>
+  <key>DigitSeven.numr</key>
+  <string>D_igitS_even.numr.glif</string>
   <key>DigitSix</key>
   <string>D_igitS_ix.glif</string>
   <key>DigitSix.Sophia</key>
   <string>D_igitS_ix.S_ophia.glif</string>
+  <key>DigitSix.dnom</key>
+  <string>D_igitS_ix.dnom.glif</string>
+  <key>DigitSix.numr</key>
+  <string>D_igitS_ix.numr.glif</string>
   <key>DigitThree</key>
   <string>D_igitT_hree.glif</string>
   <key>DigitThree.Sophia</key>
   <string>D_igitT_hree.S_ophia.glif</string>
+  <key>DigitThree.dnom</key>
+  <string>D_igitT_hree.dnom.glif</string>
+  <key>DigitThree.numr</key>
+  <string>D_igitT_hree.numr.glif</string>
   <key>DigitTwo</key>
   <string>D_igitT_wo.glif</string>
   <key>DigitTwo.Sophia</key>
   <string>D_igitT_wo.S_ophia.glif</string>
+  <key>DigitTwo.dnom</key>
+  <string>D_igitT_wo.dnom.glif</string>
+  <key>DigitTwo.numr</key>
+  <string>D_igitT_wo.numr.glif</string>
   <key>DigitZero</key>
   <string>D_igitZ_ero.glif</string>
   <key>DigitZero.Sophia</key>
   <string>D_igitZ_ero.S_ophia.glif</string>
+  <key>DigitZero.dnom</key>
+  <string>D_igitZ_ero.dnom.glif</string>
+  <key>DigitZero.numr</key>
+  <string>D_igitZ_ero.numr.glif</string>
   <key>DivSgn</key>
   <string>D_ivS_gn.glif</string>
   <key>DollarSgn</key>
@@ -1468,6 +1526,8 @@
   <string>D_rachmaS_gn.glif</string>
   <key>DwnArrw</key>
   <string>D_wnA_rrw.glif</string>
+  <key>DwnArrwhd</key>
+  <string>D_wnA_rrwhd.glif</string>
   <key>DwnDblArrw</key>
   <string>D_wnD_blA_rrw.glif</string>
   <key>EmDash</key>
@@ -1494,6 +1554,12 @@
   <string>E_uroS_gn.glif</string>
   <key>ExclamationMrk</key>
   <string>E_xclamationM_rk.glif</string>
+  <key>FaceFrown</key>
+  <string>F_aceF_rown.glif</string>
+  <key>FaceNeutral</key>
+  <string>F_aceN_eutral.glif</string>
+  <key>FaceSmile</key>
+  <string>F_aceS_mile.glif</string>
   <key>FemOrdIndicator</key>
   <string>F_emO_rdI_ndicator.glif</string>
   <key>FemaleSgn</key>
@@ -1516,6 +1582,8 @@
   <string>F_racN_umtrO_ne.glif</string>
   <key>FracSlash</key>
   <string>F_racS_lash.glif</string>
+  <key>FracSlash.frac</key>
+  <string>F_racS_lash.frac.glif</string>
   <key>FrenchFrancSgn</key>
   <string>F_renchF_rancS_gn.glif</string>
   <key>FullStop</key>
@@ -7048,12 +7116,74 @@
   <string>L_tnS_mZ_S_washT_ailD_ep.glif</string>
   <key>LtnStretchedC</key>
   <string>L_tnS_tretchedC_.glif</string>
+  <key>LtnSubCapA</key>
+  <string>L_tnS_ubC_apA_.glif</string>
+  <key>LtnSubCapB</key>
+  <string>L_tnS_ubC_apB_.glif</string>
+  <key>LtnSubCapC</key>
+  <string>L_tnS_ubC_apC_.glif</string>
+  <key>LtnSubCapD</key>
+  <string>L_tnS_ubC_apD_.glif</string>
+  <key>LtnSubCapE</key>
+  <string>L_tnS_ubC_apE_.glif</string>
+  <key>LtnSubCapF</key>
+  <string>L_tnS_ubC_apF_.glif</string>
+  <key>LtnSubCapG</key>
+  <string>L_tnS_ubC_apG_.glif</string>
+  <key>LtnSubCapH</key>
+  <string>L_tnS_ubC_apH_.glif</string>
+  <key>LtnSubCapI</key>
+  <string>L_tnS_ubC_apI_.glif</string>
+  <key>LtnSubCapJ</key>
+  <string>L_tnS_ubC_apJ_.glif</string>
+  <key>LtnSubCapK</key>
+  <string>L_tnS_ubC_apK_.glif</string>
+  <key>LtnSubCapL</key>
+  <string>L_tnS_ubC_apL_.glif</string>
+  <key>LtnSubCapM</key>
+  <string>L_tnS_ubC_apM_.glif</string>
+  <key>LtnSubCapN</key>
+  <string>L_tnS_ubC_apN_.glif</string>
+  <key>LtnSubCapO</key>
+  <string>L_tnS_ubC_apO_.glif</string>
+  <key>LtnSubCapP</key>
+  <string>L_tnS_ubC_apP_.glif</string>
+  <key>LtnSubCapQ</key>
+  <string>L_tnS_ubC_apQ_.glif</string>
+  <key>LtnSubCapR</key>
+  <string>L_tnS_ubC_apR_.glif</string>
+  <key>LtnSubCapS</key>
+  <string>L_tnS_ubC_apS_.glif</string>
+  <key>LtnSubCapT</key>
+  <string>L_tnS_ubC_apT_.glif</string>
+  <key>LtnSubCapU</key>
+  <string>L_tnS_ubC_apU_.glif</string>
+  <key>LtnSubCapV</key>
+  <string>L_tnS_ubC_apV_.glif</string>
+  <key>LtnSubCapW</key>
+  <string>L_tnS_ubC_apW_.glif</string>
+  <key>LtnSubCapX</key>
+  <string>L_tnS_ubC_apX_.glif</string>
+  <key>LtnSubCapY</key>
+  <string>L_tnS_ubC_apY_.glif</string>
+  <key>LtnSubCapZ</key>
+  <string>L_tnS_ubC_apZ_.glif</string>
   <key>LtnSubSmA</key>
   <string>L_tnS_ubS_mA_.glif</string>
   <key>LtnSubSmA.SngStory</key>
   <string>L_tnS_ubS_mA_.S_ngS_tory.glif</string>
+  <key>LtnSubSmB</key>
+  <string>L_tnS_ubS_mB_.glif</string>
+  <key>LtnSubSmC</key>
+  <string>L_tnS_ubS_mC_.glif</string>
+  <key>LtnSubSmD</key>
+  <string>L_tnS_ubS_mD_.glif</string>
   <key>LtnSubSmE</key>
   <string>L_tnS_ubS_mE_.glif</string>
+  <key>LtnSubSmF</key>
+  <string>L_tnS_ubS_mF_.glif</string>
+  <key>LtnSubSmG</key>
+  <string>L_tnS_ubS_mG_.glif</string>
   <key>LtnSubSmH</key>
   <string>L_tnS_ubS_mH_.glif</string>
   <key>LtnSubSmI</key>
@@ -7078,6 +7208,8 @@
   <string>L_tnS_ubS_mO_.glif</string>
   <key>LtnSubSmP</key>
   <string>L_tnS_ubS_mP_.glif</string>
+  <key>LtnSubSmQ</key>
+  <string>L_tnS_ubS_mQ_.glif</string>
   <key>LtnSubSmR</key>
   <string>L_tnS_ubS_mR_.glif</string>
   <key>LtnSubSmS</key>
@@ -7090,8 +7222,14 @@
   <string>L_tnS_ubS_mU_.glif</string>
   <key>LtnSubSmV</key>
   <string>L_tnS_ubS_mV_.glif</string>
+  <key>LtnSubSmW</key>
+  <string>L_tnS_ubS_mW_.glif</string>
   <key>LtnSubSmX</key>
   <string>L_tnS_ubS_mX_.glif</string>
+  <key>LtnSubSmY</key>
+  <string>L_tnS_ubS_mY_.glif</string>
+  <key>LtnSubSmZ</key>
+  <string>L_tnS_ubS_mZ_.glif</string>
   <key>LtnSupSmA</key>
   <string>L_tnS_upS_mA_.glif</string>
   <key>LtnSupSmA.SngStory</key>
@@ -7190,6 +7328,8 @@
   <string>L_tnS_upS_mO_pnO_.T_opS_erif.glif</string>
   <key>LtnSupSmP</key>
   <string>L_tnS_upS_mP_.glif</string>
+  <key>LtnSupSmQ</key>
+  <string>L_tnS_upS_mQ_.glif</string>
   <key>LtnSupSmRamsHorn</key>
   <string>L_tnS_upS_mR_amsH_orn.glif</string>
   <key>LtnSupSmRevE</key>
@@ -7306,6 +7446,8 @@
   <string>M_athR_tA_ngB_rac.glif</string>
   <key>MathRtWhiteSqrBrac</key>
   <string>M_athR_tW_hiteS_qrB_rac.glif</string>
+  <key>MeasuredAngle</key>
+  <string>M_easuredA_ngle.glif</string>
   <key>MicroSgn</key>
   <string>M_icroS_gn.glif</string>
   <key>MiddleDot</key>
@@ -7340,10 +7482,14 @@
   <string>M_odC_apB_.glif</string>
   <key>ModCapBarredB</key>
   <string>M_odC_apB_arredB_.glif</string>
+  <key>ModCapC</key>
+  <string>M_odC_apC_.glif</string>
   <key>ModCapD</key>
   <string>M_odC_apD_.glif</string>
   <key>ModCapE</key>
   <string>M_odC_apE_.glif</string>
+  <key>ModCapF</key>
+  <string>M_odC_apF_.glif</string>
   <key>ModCapG</key>
   <string>M_odC_apG_.glif</string>
   <key>ModCapH</key>
@@ -7368,12 +7514,16 @@
   <string>M_odC_apO_u.O_penT_op.glif</string>
   <key>ModCapP</key>
   <string>M_odC_apP_.glif</string>
+  <key>ModCapQ</key>
+  <string>M_odC_apQ_.glif</string>
   <key>ModCapR</key>
   <string>M_odC_apR_.glif</string>
   <key>ModCapRevE</key>
   <string>M_odC_apR_evE_.glif</string>
   <key>ModCapRevN</key>
   <string>M_odC_apR_evN_.glif</string>
+  <key>ModCapS</key>
+  <string>M_odC_apS_.glif</string>
   <key>ModCapT</key>
   <string>M_odC_apT_.glif</string>
   <key>ModCapU</key>
@@ -7382,6 +7532,12 @@
   <string>M_odC_apV_.glif</string>
   <key>ModCapW</key>
   <string>M_odC_apW_.glif</string>
+  <key>ModCapX</key>
+  <string>M_odC_apX_.glif</string>
+  <key>ModCapY</key>
+  <string>M_odC_apY_.glif</string>
+  <key>ModCapZ</key>
+  <string>M_odC_apZ_.glif</string>
   <key>ModChinantecTnMrkDotHorizBar</key>
   <string>M_odC_hinantecT_nM_rkD_otH_orizB_ar.glif</string>
   <key>ModChinantecTnMrkDotHorizBarDep</key>
@@ -7766,8 +7922,12 @@
   <string>N_ordicM_arkS_gn.glif</string>
   <key>NotEqTo</key>
   <string>N_otE_qT_o.glif</string>
+  <key>NotGTSgn</key>
+  <string>N_otG_T_S_gn.glif</string>
   <key>NotIdenticalTo</key>
   <string>N_otI_denticalT_o.glif</string>
+  <key>NotLTSgn</key>
+  <string>N_otL_T_S_gn.glif</string>
   <key>NotParallelTo</key>
   <string>N_otP_arallelT_o.glif</string>
   <key>NotSgn</key>
@@ -7802,6 +7962,8 @@
   <string>P_erM_illeS_gn.glif</string>
   <key>PercentSgn</key>
   <string>P_ercentS_gn.glif</string>
+  <key>Perpendicular</key>
+  <string>P_erpendicular.glif</string>
   <key>PesetaSgn</key>
   <string>P_esetaS_gn.glif</string>
   <key>PesoSgn</key>
@@ -8412,6 +8574,8 @@
   <string>T_woE_mD_ash.glif</string>
   <key>UpArrw</key>
   <string>U_pA_rrw.glif</string>
+  <key>UpArrwhd</key>
+  <string>U_pA_rrwhd.glif</string>
   <key>UpDblArrw</key>
   <string>U_pD_blA_rrw.glif</string>
   <key>UpDwnArrw</key>
