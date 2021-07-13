@@ -9,7 +9,7 @@ STANDARDS = 'references/v5'
 
 APPNAME = 'GentiumPlus'
 familyname = APPNAME
-DEBPKG = 'fonts-sil-gentium'
+DEBPKG = 'fonts-sil-gentium-wsp'
 
 # Get VERSION and BUILDLABEL from Regular UFO; must be first function call:
 getufoinfo('source/masters/' + familyname + 'Master-Regular' + '.ufo')
@@ -26,7 +26,7 @@ cmds = []
 cmds.append(cmd('psfchangettfglyphnames ${SRC} ${DEP} ${TGT}', ['${DS:FILE}']))
 cmds.append(cmd('${TTFAUTOHINT} -n -W ${DEP} ${TGT}'))
 
-for dspace in ('Roman', 'Italic'):
+for dspace in ('WSP',):
 #for dspace in ('Roman',):
 #for dspace in ('Italic',):
     designspace('source/' + familyname + dspace + '.designspace',
@@ -55,8 +55,8 @@ for dspace in ('Roman', 'Italic'):
 #                        'source/graphite/greek_recompose.gdh', 
 #                        'source/graphite/stddef.gdh')
 #                    ),
-                woff = woff('web/${DS:FILENAME_BASE}.woff',
-                    metadata=f'../source/{familyname}-WOFF-metadata.xml'),
+#                woff = woff('web/${DS:FILENAME_BASE}.woff',
+#                    metadata=f'../source/{familyname}-WOFF-metadata.xml'),
                 version = VERSION,
 #                pdf=fret(params = '-r -oi')
                 )
