@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnSmVDiagStrk.sc" format="2">
+  <advance width="1181"/>
+  <anchor x="505" y="-76" name="L"/>
+  <anchor x="679" y="1103" name="U"/>
+  <outline>
+    <contour>
+      <point x="467" y="-26" type="line"/>
+      <point x="536" y="-11"/>
+      <point x="644" y="26"/>
+      <point x="672" y="76" type="curve"/>
+      <point x="1121" y="909" type="line"/>
+      <point x="1136" y="935"/>
+      <point x="1182" y="945"/>
+      <point x="1262" y="959" type="curve"/>
+      <point x="1275" y="1041" type="line"/>
+      <point x="888" y="1041" type="line"/>
+      <point x="876" y="959" type="line"/>
+      <point x="963" y="950"/>
+      <point x="984" y="938"/>
+      <point x="974" y="915" type="curve"/>
+      <point x="862" y="704"/>
+      <point x="748" y="492"/>
+      <point x="636" y="280" type="curve"/>
+      <point x="472" y="915" type="line"/>
+      <point x="466" y="940"/>
+      <point x="492" y="952"/>
+      <point x="581" y="959" type="curve"/>
+      <point x="593" y="1041" type="line"/>
+      <point x="121" y="1041" type="line"/>
+      <point x="109" y="959" type="line"/>
+      <point x="178" y="950"/>
+      <point x="207" y="935"/>
+      <point x="215" y="911" type="curve"/>
+    </contour>
+    <contour>
+      <point x="120" y="-104" type="line"/>
+      <point x="156" y="-89"/>
+      <point x="280" y="-45"/>
+      <point x="258" y="-55" type="curve"/>
+      <point x="873" y="1121" type="line"/>
+      <point x="845" y="1147" type="line"/>
+      <point x="756" y="1118"/>
+      <point x="722" y="1107"/>
+      <point x="717" y="1104" type="curve"/>
+      <point x="99" y="-78" type="line"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="CySmUkrainIe.sc" format="2">
+  <advance width="1152"/>
+  <anchor x="618" y="-83" name="L"/>
+  <anchor x="646" y="1132" name="U"/>
+  <outline>
+    <contour>
+      <point x="621" y="-25" type="curve" smooth="yes"/>
+      <point x="797" y="-25"/>
+      <point x="927" y="18"/>
+      <point x="1015" y="65" type="curve"/>
+      <point x="1023" y="79"/>
+      <point x="1048" y="261"/>
+      <point x="1048" y="297" type="curve"/>
+      <point x="1042" y="301"/>
+      <point x="994" y="319"/>
+      <point x="983" y="320" type="curve"/>
+      <point x="895" y="154"/>
+      <point x="785" y="95"/>
+      <point x="674" y="95" type="curve" smooth="yes"/>
+      <point x="538" y="95"/>
+      <point x="351" y="194"/>
+      <point x="351" y="538" type="curve" smooth="yes"/>
+      <point x="351" y="830"/>
+      <point x="476" y="958"/>
+      <point x="647" y="958" type="curve" smooth="yes"/>
+      <point x="762" y="958"/>
+      <point x="877" y="909"/>
+      <point x="941" y="769" type="curve"/>
+      <point x="1011" y="762" type="line"/>
+      <point x="1024" y="767"/>
+      <point x="1053" y="993"/>
+      <point x="1045" y="996" type="curve" smooth="yes"/>
+      <point x="936" y="1037"/>
+      <point x="807" y="1066"/>
+      <point x="657" y="1066" type="curve" smooth="yes"/>
+      <point x="328" y="1066"/>
+      <point x="65" y="830"/>
+      <point x="65" y="510" type="curve" smooth="yes"/>
+      <point x="65" y="164"/>
+      <point x="337" y="-25"/>
+    </contour>
+    <contour>
+      <point x="815" y="467" type="curve"/>
+      <point x="828" y="484"/>
+      <point x="879" y="591"/>
+      <point x="885" y="607" type="curve"/>
+      <point x="854" y="636" type="line"/>
+      <point x="788" y="615"/>
+      <point x="672" y="599"/>
+      <point x="566" y="599" type="curve" smooth="yes"/>
+      <point x="254" y="599" type="line"/>
+      <point x="229" y="544" type="line"/>
+      <point x="253" y="491" type="line"/>
+      <point x="584" y="491" type="line" smooth="yes"/>
+      <point x="663" y="491"/>
+      <point x="746" y="480"/>
+    </contour>
+  </outline>
+</glyph>

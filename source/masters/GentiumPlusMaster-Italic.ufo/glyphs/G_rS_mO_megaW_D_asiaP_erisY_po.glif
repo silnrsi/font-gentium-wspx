@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="GrSmOmegaWDasiaPerisYpo" format="2">
+  <advance width="1370"/>
+  <unicode hex="1FA7"/>
+  <outline>
+    <component base="GrYpo" xOffset="1190"/>
+    <component base="GrSmOmega"/>
+    <component base="GrDasiaPeris" xOffset="610"/>
+  </outline>
+</glyph>

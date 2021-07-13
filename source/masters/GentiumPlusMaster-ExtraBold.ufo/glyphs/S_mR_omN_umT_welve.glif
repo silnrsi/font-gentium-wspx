@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="SmRomNumTwelve" format="2">
+  <advance width="2350"/>
+  <unicode hex="217B"/>
+  <anchor x="1146" y="1370" name="U"/>
+  <outline>
+    <component base="LtnSmX"/>
+    <component base="LtnSmI" xOffset="1080"/>
+    <component base="LtnSmI" xOffset="1715"/>
+  </outline>
+</glyph>

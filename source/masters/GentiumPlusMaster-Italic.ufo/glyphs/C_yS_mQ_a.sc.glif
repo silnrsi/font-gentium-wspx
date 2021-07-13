@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="CySmQa.sc" format="2">
+  <advance width="1067"/>
+  <anchor x="458" y="-76" name="L"/>
+  <anchor x="640" y="1103" name="U"/>
+  <outline>
+    <component base="LtnSmQ.sc"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
+</glyph>

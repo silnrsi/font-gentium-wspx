@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnSmACaron.SngStory.LP" format="2">
+  <advance width="1125"/>
+  <anchor x="517" y="0" name="H"/>
+  <anchor x="590" y="-100" name="L"/>
+  <anchor x="850" y="0" name="O"/>
+  <anchor x="1164" y="900" name="R"/>
+  <anchor x="590" y="1450" name="U"/>
+  <outline>
+    <component base="LtnSmA.SngStory"/>
+    <component base="CombCaron.LP" xOffset="1137"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
+</glyph>

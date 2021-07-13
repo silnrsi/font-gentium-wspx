@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="CombGraveBlw" format="2">
+  <unicode hex="0316"/>
+  <anchor x="-626" y="-600" name="L"/>
+  <anchor x="-548" y="-100" name="_L"/>
+  <outline>
+    <contour>
+      <point x="-370" y="-436" type="curve"/>
+      <point x="-703" y="-101" type="line"/>
+      <point x="-734" y="-117"/>
+      <point x="-834" y="-172"/>
+      <point x="-859" y="-192" type="curve"/>
+      <point x="-878" y="-269" type="line"/>
+      <point x="-447" y="-513" type="line"/>
+      <point x="-418" y="-502"/>
+      <point x="-388" y="-463"/>
+    </contour>
+  </outline>
+</glyph>

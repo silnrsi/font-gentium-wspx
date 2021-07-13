@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="GrCapEpsilonWVaria" format="2">
+  <advance width="1461"/>
+  <unicode hex="1FC8"/>
+  <outline>
+    <component base="GrCapEpsilon" xOffset="431"/>
+    <component base="GrVaria" xOffset="1" yOffset="-100"/>
+  </outline>
+</glyph>

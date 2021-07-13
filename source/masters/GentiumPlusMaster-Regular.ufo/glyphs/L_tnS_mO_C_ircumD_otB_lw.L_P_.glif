@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnSmOCircumDotBlw.LP" format="2">
+  <advance width="1030"/>
+  <anchor x="535" y="0" name="H"/>
+  <anchor x="535" y="-600" name="L"/>
+  <anchor x="575" y="0" name="O"/>
+  <anchor x="1044" y="900" name="R"/>
+  <anchor x="535" y="1450" name="U"/>
+  <outline>
+    <component base="LtnSmO"/>
+    <component base="CombDotBlw" xOffset="1050"/>
+    <component base="CombCircum.LP" xOffset="1049"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
+</glyph>

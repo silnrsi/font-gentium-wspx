@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="GrSmOmegaWTonos" format="2">
+  <advance width="1534"/>
+  <unicode hex="03CE"/>
+  <outline>
+    <component base="GrSmOmega"/>
+    <component base="GrTonos" xOffset="628"/>
+  </outline>
+</glyph>

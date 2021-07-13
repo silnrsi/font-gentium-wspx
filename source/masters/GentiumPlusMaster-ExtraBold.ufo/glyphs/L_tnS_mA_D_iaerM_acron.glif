@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnSmADiaerMacron" format="2">
+  <advance width="1050"/>
+  <unicode hex="01DF"/>
+  <anchor x="700" y="0" name="H"/>
+  <anchor x="460" y="-100" name="L"/>
+  <anchor x="715" y="0" name="O"/>
+  <anchor x="940" y="900" name="R"/>
+  <anchor x="480" y="1770" name="U"/>
+  <outline>
+    <component base="LtnSmA"/>
+    <component base="CombDiaer" xOffset="1055"/>
+    <component base="CombMacron" xOffset="1095" yOffset="360"/>
+  </outline>
+</glyph>

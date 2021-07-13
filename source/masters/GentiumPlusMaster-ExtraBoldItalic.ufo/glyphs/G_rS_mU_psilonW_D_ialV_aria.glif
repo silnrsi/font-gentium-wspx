@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="GrSmUpsilonWDialVaria" format="2">
+  <advance width="1099"/>
+  <unicode hex="1FE2"/>
+  <outline>
+    <component base="GrSmUpsilon"/>
+    <component base="GrDialVaria" xOffset="239"/>
+  </outline>
+</glyph>

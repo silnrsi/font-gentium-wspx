@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="CombDblMacron" format="2">
+  <unicode hex="035E"/>
+  <anchor x="220" y="1800" name="U"/>
+  <outline>
+    <contour>
+      <point x="971" y="1762" type="curve"/>
+      <point x="942" y="1797" type="line"/>
+      <point x="-545" y="1797" type="line"/>
+      <point x="-560" y="1770"/>
+      <point x="-604" y="1692"/>
+      <point x="-614" y="1665" type="curve"/>
+      <point x="-588" y="1631" type="line"/>
+      <point x="901" y="1631" type="line"/>
+      <point x="914" y="1653"/>
+      <point x="962" y="1733"/>
+    </contour>
+  </outline>
+</glyph>

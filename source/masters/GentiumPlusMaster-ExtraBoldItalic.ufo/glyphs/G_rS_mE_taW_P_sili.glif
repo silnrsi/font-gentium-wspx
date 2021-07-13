@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="GrSmEtaWPsili" format="2">
+  <advance width="1123"/>
+  <unicode hex="1F20"/>
+  <outline>
+    <component base="GrSmEta"/>
+    <component base="GrPsili" xOffset="437"/>
+  </outline>
+</glyph>

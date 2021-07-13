@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnCapEOgonek.RetroHook" format="2">
+  <advance width="946"/>
+  <anchor x="411" y="0" name="H"/>
+  <anchor x="388" y="-600" name="L"/>
+  <anchor x="621" y="0" name="O"/>
+  <anchor x="950" y="1070" name="R"/>
+  <anchor x="591" y="1320" name="U"/>
+  <outline>
+    <component base="LtnCapE"/>
+    <component base="Ogonek.RetroHook" xOffset="517"/>
+  </outline>
+</glyph>

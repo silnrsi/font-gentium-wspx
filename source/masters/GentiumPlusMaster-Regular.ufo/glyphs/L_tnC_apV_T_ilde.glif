@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnCapVTilde" format="2">
+  <advance width="1331"/>
+  <unicode hex="1E7C"/>
+  <anchor x="648" y="0" name="H"/>
+  <anchor x="655" y="-100" name="L"/>
+  <anchor x="616" y="0" name="O"/>
+  <anchor x="665" y="1690" name="U"/>
+  <outline>
+    <component base="LtnCapV"/>
+    <component base="CombTilde.LP" xOffset="1180" yOffset="320"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
+</glyph>

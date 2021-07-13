@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnLigSmFSmFSmI.sc" format="2">
+  <advance width="2215"/>
+  <anchor x="1887" y="7" name="H"/>
+  <anchor x="1874" y="-76" name="L"/>
+  <anchor x="1944" y="7" name="O"/>
+  <anchor x="2193" y="896" name="R"/>
+  <anchor x="2058" y="1103" name="U"/>
+  <outline>
+    <component base="LtnSmF.sc"/>
+    <component base="LtnSmF.sc" xOffset="838"/>
+    <component base="LtnSmI.sc" xOffset="1676"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
+</glyph>

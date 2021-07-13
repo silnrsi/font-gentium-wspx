@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnCapLDotBlwMacron" format="2">
+  <advance width="975"/>
+  <unicode hex="1E38"/>
+  <anchor x="497" y="0" name="H"/>
+  <anchor x="497" y="-600" name="L"/>
+  <anchor x="750" y="900" name="R"/>
+  <anchor x="467" y="1690" name="U"/>
+  <outline>
+    <component base="LtnCapL"/>
+    <component base="CombDotBlw" xOffset="1012"/>
+    <component base="CombMacron.LP" xOffset="992" yOffset="320"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
+</glyph>

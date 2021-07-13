@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="SubMinus" format="2">
+  <advance width="584"/>
+  <unicode hex="208B"/>
+  <outline>
+    <contour>
+      <point x="491" y="165" type="curve"/>
+      <point x="471" y="186" type="line"/>
+      <point x="25" y="186" type="line"/>
+      <point x="14" y="170"/>
+      <point x="-12" y="131"/>
+      <point x="-20" y="113" type="curve"/>
+      <point x="0" y="93" type="line"/>
+      <point x="446" y="93" type="line"/>
+      <point x="455" y="106"/>
+      <point x="483" y="148"/>
+    </contour>
+  </outline>
+</glyph>

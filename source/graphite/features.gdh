@@ -1,0 +1,1123 @@
+/*
+    Title:  Roman Font GDL description -- feature definitions
+    Author: Martin Hosken, Bob Hallissy, Sharon Correll
+
+	This file is from the Gentium project (https://software.sil.org/gentium/).
+	Copyright (c) 2003-2021 SIL International (http://www.sil.org/) with Reserved
+	Font Names "Gentium" and "SIL". This Font Software is licensed under the SIL
+	Open Font License, Version 1.1 (http://scripts.sil.org/OFL).
+
+    Changes:
+
+AKW 2013-Mar-05  Remove Deprecated PUA feature
+SJC 2008-Oct     Added 2-letter language codes, reordered feature list, added small caps, etc.
+SJC 2008-Jul-31  Added Deprecated PUA feature, Capital B-hook alternate, ...
+SJC 2008-Apr-23  Changed Tat alternates back to H-stroke alternates
+SJC 2008-Jan-29  Added Andika features; reworked various things
+SJC 2007-Oct     Marked some features to only include in non-basic font
+SJC 2007-Jan-23  Removed Cyrillic cursive italic feature (merged with slant italic specials)
+SJC 2006-Dec-05  Additions to support Unicode 5.0: 9-level pitches, Cyrillic cursive italics,
+		open-o, Chinantec tones; removed Orthographic glottal alt; added language table
+SJC 2006-Apr-12  Added code for small-caps and all-caps features (turned off)
+SJC 2006-Jan-19  Added feature 1056; reordered list slightly
+SJC 2005-Sep-1   Added features 1052 and 1053
+SJC 2005-May-16  Added features 1047, 1048, and 1049
+SJC 2005-May-16  Added "Diacritic selection" and "Hide tone contour staff"
+JMW 2004-Aug-24  Correct mispelling of "Capital" in Y-hook feature name
+JMW 2004-Jul-21	 Added 4th alternate to eng feature for Kom-Cameroon
+JMW 2004-Jul-07	 Corrected DEBUG feature from ifdef to if
+RMH 2004-Mar-17	 OU alternates feature default is now closed top, and alternate is .OpenType  (issue RFS-5WXH4D)
+RMH 2003-Sep-25	 Took a shot at re-wording features to:
+		increase consistency of names
+		add named values for many features to see how we like it.
+RMH 01-Sep-2003	 Reworked all features PC's design
+RMH 17-Jul-2003	 Changed Ameriphon ID so it doesn't conflict with invis
+RMH 10-Jul-2003	 Per RFS team decisions:
+		Remove "left-stem tone letter" option
+		Make "Pitches as Numbers" a true boolean
+MJPH 04-Nov-2002  original
+*/
+
+
+#define bool default = ffalse; \
+    settings { \
+        ffalse { \
+            value = 0; \
+            name.1033 = string("False"); \
+        } \
+        ftrue { \
+            value = 1; \
+            name.1033 = string("True"); \
+        } \
+    }
+
+#define boolWDefTrue default = ftrue; \
+    settings { \
+        ffalse { \
+            value = 0; \
+            name.1033 = string("False"); \
+        } \
+        ftrue { \
+            value = 1; \
+            name.1033 = string("True"); \
+        } \
+    }
+
+// Note that the order in which the features are listed below is how they will be presented
+// in the combo-box in WorldPad.
+
+//////////////////////////////////////////////////////////////////////////////////////
+//
+//	Features
+//
+
+table(feature)
+
+smallcaps {
+	id = "smcp";
+	name.1033 = string("Small Caps");
+	bool
+}
+
+// keep litr feature in Graphite for backwards compatibility
+//   since ss01 will behave like the OT feature
+literacy_old {
+	id = "litr";
+	name.1033 = string("Literacy alternates legacy");
+#if (ANDIKAfamily)
+	boolWDefTrue
+#else
+	bool // default is false
+#endif // !ANDIKAfamily
+	// to create the hacked literacy font, use this line instead:
+	////boolWDefTrue
+}
+
+literacy {
+	id = "ss01";
+	// id.hidden = "litr";
+	name.1033 = string("Literacy alternates");
+	bool // default is false
+}
+
+literacy_a {
+	name.1033 = string("Literacy a alternates");
+#if (ANDIKAfamily)
+	id = "ss13";
+#else
+	id = "ss11";
+#endif // !ANDIKAfamily
+	bool // default is false
+}
+
+literacy_g {
+	name.1033 = string("Literacy g alternates");
+#if (ANDIKAfamily)
+	id = "ss14";
+#else
+	id = "ss12";
+#endif // !ANDIKAfamily
+	bool // default is false
+}
+
+slant_italic {
+	id = "ss05";
+	id.hidden = "ital";
+	name.1033 = string("Slant italic specials");
+	bool
+}
+
+barred_bowl {
+	id = "ss04";
+	id.hidden = "bowl";
+	name.1033 = string("Barred-bowl forms");
+	default = false;
+	settings {
+		ffalse {
+			value = 0;
+			name.1033 = string("False");
+		}
+		ftrue {
+			value = 1;
+			name.1033 = string("Barred-bowl");
+		}
+	}
+}
+
+
+// -----------------
+////separator1 { id=10000; name.1033 = string("-"); };
+
+
+supernum {
+	id = "cv91";
+	id.hidden = "tone";
+	name.1033 = string("Tone numbers");
+	default = false;
+	settings {
+		ffalse {
+			value = 0;
+			name.1033 = string("Bars");
+		}
+		ftrue {
+			value = 1;
+			name.1033 = string("Numbers");
+		}
+	}
+}
+
+hide_tone_staff {
+	id = "cv92";
+	id.hidden = "tstv";
+	name.1033 = string("Hide tone contour staves");
+	bool
+}
+
+pitch9 {  // ???????????????????
+	id = "pit9";
+	name.1033 = string("9-level pitches");
+	default = 0;
+	settings {
+		ligated {
+			value = 0;
+			name.1033 = string("No tramlines");
+		}
+		tramlines {
+			value = 1;
+			name.1033 = string("Tramlines");
+		}
+		nonLigated {
+			value = 2;
+			name.1033 = string("Non-ligated with no tramlines");
+		}
+		tramNonLigated {
+			value = 3;
+			name.1033 = string("Non-ligated with tramlines");
+		}
+	}
+}
+
+
+// -----------------
+////separator2 { id=10002; name.1033 = string("-"); };
+
+viet {
+	id = "cv75";
+	id.hidden = "viet";
+	name.1033 = string("Vietnamese-style diacritics");
+	default = false;
+	settings {
+		ffalse {
+			value = 0;
+			name.1033 = string("False");
+		}
+		ftrue {
+			value = 1;
+			name.1033 = string("Vietnamese-style");
+		}
+	}
+}
+
+/* --- removed feature ---
+rom {
+	id = "romn";
+	name.1033 = string("Romanian-style diacritics");
+	bool
+}
+-------------------------- */
+
+chinantec_tone {
+	id = "cv90";
+	id.hidden = "chtn";
+	name.1033 = string("Chinantec tones");
+	default = false;
+	settings {
+		ffalse {
+			value = 0;
+			name.1033 = string("False");
+		}
+		ftrue {
+			value = 1;
+			name.1033 = string("Chinantec-style");
+		}
+	}
+}
+
+bridging_diac {
+	id = "brig";
+	name.1033 = string("Bridging diacritics");
+	bool
+}
+
+serbian {
+	id = "locl";
+	id.hidden = "serb";
+	name.1033 = string("Serbian-style alternates");
+	bool
+}
+
+#if (FONT == GENTIUMfont)
+
+low_profile_diac {
+	id = "ss07";
+	id.hidden = "lopr";
+	name.1033 = string("Low-profile diacritics");
+	bool
+}
+
+#endif // GENTIUMfont
+
+// -----------------
+////separator3 { id=10003; name.1033 = string("-"); };
+
+eng {
+	id = "cv43";
+	id.hidden = "Engs";
+	name.1033 = string("Uppercase Eng alternates");
+	default = descender;
+	settings {
+		descender {
+			value = 0;
+			name.1033 = string("Large eng with descender");
+		}
+		base {
+			value = 1;
+			name.1033 = string("Large eng on baseline");
+		}
+		capital {
+			value = 2;
+			name.1033 = string("Capital N with tail");
+		}
+		short {
+			value = 3;
+			name.1033 = string("Large eng with short stem");
+		}
+	}
+}
+
+ramshorn {
+	id = "cv25";
+	id.hidden = "ramh";
+	name.1033 = string("Rams horn alternates");
+	default = small;
+	settings {
+		small {
+			value = 0;
+			name.1033 = string("Small bowl");
+		}
+		large {
+			value = 1;
+			name.1033 = string("Large bowl");
+		}
+		gamma {
+			value = 2;
+			name.1033 = string("Small gamma");
+		}
+	}
+}
+
+ogonek {
+	id = "cv76";
+	id.hidden = "ogon";
+	name.1033 = string("Ogonek alternate");
+	default = ipa;
+	settings {
+		ipa {
+			value = 0;
+			name.1033 = string("Curved");
+		}
+		americanist {
+			value = 1;
+			name.1033 = string("Straight");
+		}
+	}
+}
+
+#if (FONT == GENTIUMfont)
+// cno_Serif > cSerif
+serif_beta {
+	id = "cv14";
+	id.hidden = "beta";
+	name.1033 = string("Serif beta alternates");
+	default = false;
+	settings {
+		ffalse {
+			value = 0;
+			name.1033 = string("No serif");
+		}
+		ftrue {
+			value = 1;
+			name.1033 = string("Serif");
+		}
+	}
+}
+
+greek_circ {
+	id = "cv78";
+	id.hidden = "pcir";
+	name.1033 = string("Porsonic circumflex");
+	default = false;
+	settings {
+		ffalse {
+			value = 0;
+			name.1033 = string("False");
+		}
+		ftrue {
+			value = 1;
+			name.1033 = string("Porsonic-style");
+		}
+	}
+}
+
+iota_subscript {
+	id = "cv83";
+	name.1033 = string("Greek capital iota subscript");
+	default = false;
+	settings {
+		ffalse {
+			value = 0;
+			name.1033 = string("False");
+		}
+		ftrue {
+			value = 1;
+			name.1033 = string("Subscript-style");
+		}
+	}
+}
+
+#endif // GENTIUMfont
+
+b_hook {
+	id = "cv13";
+	id.hidden = "B_hk";
+	name.1033 = string("Capital B-hook alternate");
+	default = false;
+	settings {
+		ffalse {
+			value = 0;
+			name.1033 = string("Uppercase style");
+		}
+		ftrue {
+			value = 1;
+			name.1033 = string("Lowercase style");
+		}
+	}
+}
+
+d_hook {
+	id = "cv17";
+	id.hidden = "D_hk";
+	name.1033 = string("Capital D-hook alternate");
+	default = false;
+	settings {
+		ffalse {
+			value = 0;
+			name.1033 = string("Uppercase style");
+		}
+		ftrue {
+			value = 1;
+			name.1033 = string("Lowercase style");
+		}
+	}
+}
+
+h_stroke {	// was called "Tat alternates"
+	id = "cv28";
+	id.hidden = "Hstk";
+	name.1033 = string("Capital H-stroke alternate");
+	default = horizontal;
+	settings {
+		horizontal {
+			value = 0;
+			name.1033 = string("False");
+		}
+		vertical {
+			value = 1;
+			name.1033 = string("Vertical-stroke");
+		}
+	}
+}
+
+ltnjstroke {
+	id = "cv37";
+	id.hidden = "Jstk";
+	name.1033 = string("J-stroke hook alternate");
+	default = noSerif;
+	settings {
+		noSerif {
+			value = 0;
+			name.1033 = string("No top serif");
+		}
+		doubleSerif {
+			value = 1;
+			name.1033 = string("Top serif");
+		}
+	}
+}
+
+n_hook {
+	id = "cv44";
+	id.hidden = "N_hk";
+	name.1033 = string("Capital N-left-hook alternate");
+	default = ucStyle;
+	settings {
+		ucStyle {
+			value = 0;
+			name.1033 = string("Uppercase style");
+		}
+		lcStyle {
+			value = 1;
+			name.1033 = string("Lowercase style");
+		}
+	}
+}
+
+open_o {
+	id = "cv46";
+	id.hidden = "opnO";
+	name.1033 = string("Open-O alternate");
+	default = bottomSerif;
+	settings {
+		bottomSerif {
+			value = 0;
+			name.1033 = string("Bottom serif");
+		}
+		topSerif {
+			value = 1;
+			name.1033 = string("Top serif");
+		}
+	}
+}
+
+p_hook {
+	id = "cv49";
+	id.hidden = "p_hk";
+	name.1033 = string("Small p-hook alternate");
+	default = left_hook;
+	settings {
+		left_hook {
+			value = 0;
+			name.1033 = string("Left hook");
+		}
+		right_hook {
+			value = 1;
+			name.1033 = string("Right hook");
+		}
+	}
+}
+
+r_tail {
+	id = "cv55";
+	id.hidden = "R_tl";
+	name.1033 = string("Capital R-tail alternate");
+	default = UCstyle;
+	settings {
+		UCstyle {
+			value = 0;
+			name.1033 = string("Uppercase style");
+		}
+		LCstyle {
+			value = 1;
+			name.1033 = string("Lowercase style");
+		}
+	}
+}
+
+t_hook {
+	id = "cv57";
+	id.hidden = "t_hk";
+	name.1033 = string("Capital T-hook alternate");
+	default = left_hook;
+	settings {
+		left_hook {
+			value = 0;
+			name.1033 = string("Left hook");
+		}
+		right_hook {
+			value = 1;
+			name.1033 = string("Right hook");
+		}
+	}
+}
+
+v_hook {
+	id = "cv62";
+	id.hidden = "v_hk";
+	name.1033 = string("V-hook alternates");
+	default = curved;
+	settings {
+		curved {
+			value = 0;
+			name.1033 = string("Curved");
+		}
+		straightLeft {
+			value = 1;
+			name.1033 = string("Straight with low hook");
+		}
+		highHook {
+			value = 2;
+			name.1033 = string("Straight with high hook");
+		}
+	}
+}
+
+// keep Y_hk feature in Graphite for backwards compatibility
+//   since cv68 will behave like the OT feature
+
+y_hook_old {
+	id = "Y_hk";
+	name.1033 = string("Capital Y-hook alternate legacy");
+	default = right_hook;
+	settings {
+		left_hook {
+			value = 0;
+			name.1033 = string("Left hook");
+		}
+		right_hook {
+			value = 1;
+			name.1033 = string("Right hook");
+		}
+	}
+}
+
+y_hook {
+	id = "cv68";
+	name.1033 = string("Capital Y-hook alternate");
+	default = left_hook;
+	settings {
+		left_hook {
+			value = 0;
+			name.1033 = string("Left hook");
+		}
+		right_hook {
+			value = 1;
+			name.1033 = string("Right hook");
+		}
+	}
+}
+
+ezh_curl {
+	id = "cv19";
+	id.hidden = "ezhc";
+	name.1033 = string("Small ezh-curl alternate");
+	default = small;
+	settings {
+		small {
+			value = 0;
+			name.1033 = string("Small bowl");
+		}
+		large {
+			value = 1;
+			name.1033 = string("Large bowl");
+		}
+	}
+}
+
+ezh {
+	id = "cv20";
+	id.hidden = "Ezhr";
+	name.1033 = string("Capital Ezh alternates");
+	default = ipa;
+	settings {
+		ipa {
+			value = 0;
+			name.1033 = string("Normal");
+		}
+		rev_sigma {
+			value = 1;
+			name.1033 = string("Reversed sigma");
+		}
+	}
+}
+
+ou {
+	id = "cv47";
+	id.hidden = "opOU";
+	name.1033 = string("OU alternates");
+	default = closed;
+	settings {
+		closed {
+			value = 0;
+			name.1033 = string("Closed");
+		}
+		open {
+			value = 1;
+			name.1033 = string("Open");
+		}
+	}
+}
+
+// -----------------
+////separator4 { id=10004; name.1033 = string("-"); };
+
+mongol_e {
+	id = "cv80";
+	id.hidden = "mone";
+	name.1033 = string("Mongolian-style Cyrillic E");
+	default = false;
+	settings {
+		ffalse {
+			value = 0;
+			name.1033 = string("False");
+		}
+		ftrue {
+			value = 1;
+			name.1033 = string("Mongolian-style");
+		}
+	}
+}
+
+/* --- obsolete feature - merged with slant_italic ---
+cyr_curs_ital {
+	id = 1061;
+	name.1033 = string("Cyrillic cursive italic alternates");
+	bool
+}
+------------------------------------------------------ */
+
+short_breve {
+	id = "cv82";
+	id.hidden = "sbrv";
+	name.1033 = string("Combining breve Cyrillic form");
+	default = false;
+	settings {
+		ffalse {
+			value = 0;
+			name.1033 = string("False");
+		}
+		ftrue {
+			value = 1;
+			name.1033 = string("Cyrillic-style");
+		}
+	}
+}
+
+cyrillic_shha {
+	id = "cv81";
+	id.hidden = "shha";
+	name.1033 = string("Cyrillic shha alternate");
+	default = false;
+	settings {
+		ffalse {
+			value = 0;
+			name.1033 = string("False");
+		}
+		ftrue {
+			value = 1;
+			name.1033 = string("Uppercase style");
+		}
+	}
+}
+
+// -----------------
+////separator5 { id=10005; name.1033 = string("-"); };
+
+apostrophe {
+	id = "cv70";
+	id.hidden = "apos";
+	name.1033 = string("Modifier apostrophe alternates");
+	default = small;
+	settings {
+		small {
+			value = 0;
+			name.1033 = string("Small");
+		}
+		large {
+			value = 1;
+			name.1033 = string("Large");
+		}
+	}
+}
+
+/* --- Obsolete feature ---
+ltnglottalstop {
+	id = 1048;
+	name.1033 = string("Orthographic glottal alternate");
+	default = capHeight;
+	settings {
+		capHeight {
+			value = 0;
+			name.1033 = string("Cap-height");
+		}
+		xHeight {
+			value = 1;
+			name.1033 = string("x-height");
+		}
+	}
+}
+--------------------------- */
+
+modlowcolon {
+	id = "cv71";
+	id.hidden = "coln";
+	name.1033 = string("Modifier colon alternate");
+	default = tight;
+	settings {
+		tight {
+			value = 0;
+			name.1033 = string("Tight");
+		}
+		wide {
+			value = 1;
+			name.1033 = string("Expanded");
+		}
+	}
+}
+
+caron {
+	id ="cv77";
+	id.hidden = "carn";
+	name.1033 = string("Non-European caron alternates");
+	default = false;
+	settings {
+		ffalse {
+			value = 0;
+			name.1033 = string("European style");
+		}
+		ftrue {
+			value = 1;
+			name.1033 = string("Non-European style");
+		}
+	}
+}
+
+kayan_diacs {
+	id ="cv79";
+	name.1033 = string("Kayan-style diacritics");
+	default = false;
+	settings {
+		ffalse {
+			value = 0;
+			name.1033 = string("Non-Kayan style");
+		}
+		ftrue {
+			value = 1;
+			name.1033 = string("Kayan style");
+		}
+	}
+}
+
+emptyset {
+	id = "cv98";
+	id.hidden = "empt";
+	name.1033 = string("Empty set alternates");
+	default = circle;
+	settings {
+		circle {
+			value = 0;
+			name.1033 = string("Circle");
+		}
+		zero {
+			value = 1;
+			name.1033 = string("Zero");
+		}
+	}
+}
+
+// -----------------
+////separator6 { id=10006; name.1033 = string("-"); };
+
+#if (ANDIKAfamily)
+
+zero {
+	id = "cv10";
+	id.hidden = "dig0";
+	name.1033 = string("Digit Zero with slash");
+	default = false;
+	settings {
+		ffalse {
+			value = 0;
+			name.1033 = string("No slash");
+		}
+		ftrue {
+			value = 1;
+			name.1033 = string("Slash");
+		}
+	}
+}
+
+one {
+	id = "cv01";
+	id.hidden = "dig1";
+	name.1033 = string("Digit One without base");
+	default = false;
+	settings {
+		ffalse {
+			value = 0;
+			name.1033 = string("Base");
+		}
+		ftrue {
+			value = 1;
+			name.1033 = string("No base");
+		}
+	}
+}
+
+four {
+	id = "cv04";
+	id.hidden = "dig4";
+	name.1033 = string("Digit Four with open top");
+	default = false;
+	settings {
+		ffalse {
+			value = 0;
+			name.1033 = string("Closed");
+		}
+		ftrue {
+			value = 1;
+			name.1033 = string("Open");
+		}
+	}
+}
+
+six_nine {
+	id = "cv06";
+	id.hidden = "dg69";
+	name.1033 = string("Digit Six and Nine alternates");
+	default = false;
+	settings {
+		ffalse {
+			value = 0;
+			name.1033 = string("Curved stem");
+		}
+		ftrue {
+			value = 1;
+			name.1033 = string("Diagonal stem");
+		}
+	}
+}
+
+seven {
+	id = "cv07";
+	id.hidden = "dig7";
+	name.1033 = string("Digit Seven with bar");
+	default = false;
+	settings {
+		ffalse {
+			value = 0;
+			name.1033 = string("No bar");
+		}
+		ftrue {
+			value = 1;
+			name.1033 = string("Bar");
+		}
+	}
+}
+
+i_hook {
+	id = "cv31";
+	id.hidden = "i_tl";
+	name.1033 = string("Small i-tail alternate");
+	default = false;
+	settings {
+		ffalse {
+			value = 0;
+			name.1033 = string("Straight");
+		}
+		ftrue {
+			value = 1;
+			name.1033 = string("Curved tail");
+		}
+	}
+}
+
+j_serif {
+	id = "cv34";
+	id.hidden = "jser";
+	name.1033 = string("Small j-serif alternate");
+	default = false;
+	settings {
+		ffalse {
+			value = 0;
+			name.1033 = string("No top serif");
+		}
+		ftrue {
+			value = 1;
+			name.1033 = string("Top serif");
+		}
+	}
+}
+
+l_hook {
+	id = "cv39";
+	id.hidden = "l_tl";
+	name.1033 = string("Small l-tail alternate");
+	default = false;
+	settings {
+		ffalse {
+			value = 0;
+			name.1033 = string("Straight");
+		}
+		ftrue {
+			value = 1;
+			name.1033 = string("Curved tail");
+		}
+	}
+}
+
+q_diagtail {
+	id = "cv52";
+	id.hidden = "Qalt";
+	name.1033 = string("Capital Q alternate");
+	default = false;
+	settings {
+		ffalse {
+			value = 0;
+			name.1033 = string("Tail");
+		}
+		ftrue {
+			value = 1;
+			name.1033 = string("Tail across");
+		}
+	}
+}
+
+q_point {
+	id = "cv51";
+	id.hidden = "q_tl";
+	name.1033 = string("Small q-tail alternate");
+	default = false;
+	settings {
+		ffalse {
+			value = 0;
+			name.1033 = string("Straight");
+		}
+		ftrue {
+			value = 1;
+			name.1033 = string("Point");
+		}
+	}
+}
+
+t_tail {
+	id = "cv56";
+	id.hidden = "t_tl";
+	name.1033 = string("Small t-tail alternate");
+	default = false;
+	settings {
+		ffalse {
+			value = 0;
+			name.1033 = string("Curved tail");
+		}
+		ftrue {
+			value = 1;
+			name.1033 = string("Straight");
+		}
+	}
+}
+
+y_tail {
+	id = "cv67";
+	id.hidden = "y_tl";
+	name.1033 = string("Small y-tail alternate");
+	default = false;
+	settings {
+		ffalse {
+			value = 0;
+			name.1033 = string("Curved tail");
+		}
+		ftrue {
+			value = 1;
+			name.1033 = string("Straight");
+		}
+	}
+}
+
+// -----------------
+////separator7 { id=10007; name.1033 = string("-"); };
+
+#endif // ANDIKAfamily
+
+
+/* --- Obsolete feature ---
+dep_pua {
+	id = "dpua";
+	name.1033 = string("Show deprecated PUA");
+	default = 0;
+	settings {
+		none {
+			value = 0;
+			name.1033 = string("None");
+		}
+		unicode51 {
+			value = 4;
+			name.1033 = string("Through Unicode 5.1");
+		}
+		unicode50 {
+			value = 3;
+			name.1033 = string("Through Unicode 5.0");
+		}
+		unicode41 {
+			value = 2;
+			name.1033 = string("Through Unicode 4.1");
+		}
+		unicode40 {
+			value = 1;
+			name.1033 = string("Through Unicode 4.0");
+		}
+	}
+}
+--------------------------- */
+
+/*----- obsolete feature -----
+invis {
+	id = "ss06";
+	id.hidden = "invs";
+	name.1033 = string("Show invisible characters");
+	bool
+}
+--------------------------- */
+
+/*----- obsolete feature -----
+select_diac {
+	id = "dsel";
+	name.1033 = string("Diacritic selection");
+	bool
+}
+--------------------------- */
+
+#if DEBUG
+debug {
+	id = "dbug";
+	name.1033 = string("DeBuG");
+	bool
+}
+#endif // DEBUG
+
+endtable;
+
+
+//////////////////////////////////////////////////////////////////////////////////////
+//
+//	Languages
+//
+
+table(language)
+
+vietnamese {
+    languages = ( "vi", "vie" ); // Vietnamese
+    viet = true;
+};
+
+chinantec {
+    languages = ( "chz" ); // Chinantec, Ozumacin
+    chinantec_tone = true;
+};
+
+/* --- removed feature ---
+romanian {
+    languages = ( "ro", "ron", "rum" ); // Romanian
+    rom = true;
+};
+-------------------------- */
+
+
+bridgeDiacs {
+    languages = (
+        "tfr",	// Teribe (Panama)
+        "kxw"	// Konai (PNG)
+    );
+    bridging_diac = true;
+};
+
+endtable;

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnSmARingAbv" format="2">
+  <advance width="1007"/>
+  <unicode hex="00E5"/>
+  <anchor x="385" y="0" name="H"/>
+  <anchor x="442" y="-100" name="L"/>
+  <anchor x="755" y="0" name="O"/>
+  <anchor x="1184" y="870" name="R"/>
+  <anchor x="646" y="1420" name="U"/>
+  <outline>
+    <component base="LtnSmA"/>
+    <component base="CombRingAbv" xOffset="979"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="TnContLft25" format="2">
+  <advance width="591"/>
+  <anchor x="424" y="1498" name="TL"/>
+  <anchor x="0" y="399" name="TL_"/>
+  <outline>
+    <component base="TnLtrSeg25"/>
+    <component base="TnLtrSpcPointRight" xOffset="425"/>
+  </outline>
+</glyph>

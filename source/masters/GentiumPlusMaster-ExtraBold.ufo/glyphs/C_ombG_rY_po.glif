@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="CombGrYpo" format="2">
+  <unicode hex="0345"/>
+  <anchor x="-533" y="-100" name="_L"/>
+  <outline>
+    <component base="GrYpo"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
+</glyph>

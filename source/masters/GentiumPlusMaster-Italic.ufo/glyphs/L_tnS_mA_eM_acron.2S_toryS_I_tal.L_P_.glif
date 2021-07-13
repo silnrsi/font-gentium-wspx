@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnSmAeMacron.2StorySItal.LP" format="2">
+  <advance width="1266"/>
+  <anchor x="598" y="-5" name="H"/>
+  <anchor x="570" y="-100" name="L"/>
+  <anchor x="872" y="-3" name="O"/>
+  <anchor x="1348" y="870" name="R"/>
+  <anchor x="770" y="1320" name="U"/>
+  <outline>
+    <component base="LtnSmAe.2StorySItal"/>
+    <component base="CombMacron.LP" xOffset="1091"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
+</glyph>

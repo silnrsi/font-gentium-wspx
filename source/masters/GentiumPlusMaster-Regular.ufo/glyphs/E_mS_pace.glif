@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="EmSpace" format="2">
+  <advance width="1569"/>
+  <unicode hex="2003"/>
+  <anchor x="784" y="0" name="H"/>
+  <anchor x="784" y="-100" name="L"/>
+  <anchor x="834" y="0" name="O"/>
+  <anchor x="1569" y="900" name="R"/>
+  <anchor x="784" y="1435" name="U"/>
+  <outline/>
+</glyph>

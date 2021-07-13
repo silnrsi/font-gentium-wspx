@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnCapIDblGrave" format="2">
+  <advance width="573"/>
+  <unicode hex="0208"/>
+  <anchor x="225" y="0" name="H"/>
+  <anchor x="211" y="-100" name="L"/>
+  <anchor x="285" y="0" name="O"/>
+  <anchor x="568" y="1072" name="R"/>
+  <anchor x="492" y="1816" name="U"/>
+  <outline>
+    <component base="LtnCapI"/>
+    <component base="CombDblGrave" xOffset="764" yOffset="320"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
+</glyph>

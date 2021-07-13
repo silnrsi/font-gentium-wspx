@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="CyCapPe" format="2">
+  <advance width="1379"/>
+  <unicode hex="041F"/>
+  <anchor x="685" y="-100" name="L"/>
+  <anchor x="685" y="1370" name="U"/>
+  <outline>
+    <contour>
+      <point x="40" y="0" type="line"/>
+      <point x="600" y="0" type="line"/>
+      <point x="600" y="83" type="line"/>
+      <point x="503" y="101"/>
+      <point x="455" y="128"/>
+      <point x="455" y="144" type="curve" smooth="yes"/>
+      <point x="455" y="1130" type="line"/>
+      <point x="905" y="1130" type="line"/>
+      <point x="905" y="144" type="line" smooth="yes"/>
+      <point x="905" y="126"/>
+      <point x="860" y="101"/>
+      <point x="770" y="83" type="curve"/>
+      <point x="770" y="0" type="line"/>
+      <point x="1320" y="0" type="line"/>
+      <point x="1320" y="83" type="line"/>
+      <point x="1223" y="101"/>
+      <point x="1185" y="128"/>
+      <point x="1185" y="144" type="curve" smooth="yes"/>
+      <point x="1185" y="1115" type="line" smooth="yes"/>
+      <point x="1185" y="1134"/>
+      <point x="1229" y="1158"/>
+      <point x="1320" y="1177" type="curve"/>
+      <point x="1320" y="1260" type="line"/>
+      <point x="40" y="1260" type="line"/>
+      <point x="40" y="1177" type="line"/>
+      <point x="136" y="1158"/>
+      <point x="175" y="1131"/>
+      <point x="175" y="1115" type="curve" smooth="yes"/>
+      <point x="175" y="144" type="line" smooth="yes"/>
+      <point x="175" y="126"/>
+      <point x="130" y="101"/>
+      <point x="40" y="83" type="curve"/>
+    </contour>
+  </outline>
+</glyph>

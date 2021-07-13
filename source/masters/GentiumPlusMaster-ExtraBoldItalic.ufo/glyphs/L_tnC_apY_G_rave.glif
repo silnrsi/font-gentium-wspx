@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnCapYGrave" format="2">
+  <advance width="1178"/>
+  <unicode hex="1EF2"/>
+  <anchor x="541" y="-100" name="L"/>
+  <anchor x="768" y="1740" name="U"/>
+  <outline>
+    <component base="LtnCapY"/>
+    <component base="CombGrave.LP" xOffset="1033" yOffset="320"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
+</glyph>

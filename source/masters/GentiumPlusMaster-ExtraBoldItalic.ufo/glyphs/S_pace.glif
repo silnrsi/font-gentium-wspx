@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Space" format="2">
+  <advance width="410"/>
+  <unicode hex="0020"/>
+  <anchor x="205" y="0" name="H"/>
+  <anchor x="195" y="-100" name="L"/>
+  <anchor x="180" y="0" name="O"/>
+  <anchor x="620" y="870" name="R"/>
+  <anchor x="390" y="1320" name="U"/>
+  <outline/>
+</glyph>

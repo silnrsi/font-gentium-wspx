@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnSmADiaerMacron.SngStory.sc" format="2">
+  <advance width="1285"/>
+  <anchor x="638" y="0" name="H"/>
+  <anchor x="638" y="-83" name="L"/>
+  <anchor x="1012" y="0" name="O"/>
+  <anchor x="638" y="1962" name="U"/>
+  <outline>
+    <component base="LtnSmA.sc"/>
+    <component base="CombDiaer" xOffset="1186" yOffset="82"/>
+    <component base="CombMacron" xOffset="1196" yOffset="502"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
+</glyph>

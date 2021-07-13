@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="CombAcuteBlw" format="2">
+  <unicode hex="0317"/>
+  <anchor x="-533" y="-600" name="L"/>
+  <anchor x="-533" y="-100" name="_L"/>
+  <outline>
+    <contour>
+      <point x="-769" y="-507" type="curve"/>
+      <point x="-261" y="-293" type="line"/>
+      <point x="-267" y="-226" type="line"/>
+      <point x="-286" y="-203"/>
+      <point x="-441" y="-107"/>
+      <point x="-468" y="-89" type="curve"/>
+      <point x="-843" y="-427" type="line"/>
+      <point x="-827" y="-454"/>
+      <point x="-791" y="-496"/>
+    </contour>
+  </outline>
+</glyph>

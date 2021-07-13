@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="SupFour" format="2">
+  <advance width="742"/>
+  <unicode hex="2074"/>
+  <anchor x="371" y="560" name="L"/>
+  <anchor x="371" y="1442" name="U"/>
+  <outline>
+    <contour>
+      <point x="669" y="864"/>
+      <point x="689" y="890" type="curve"/>
+      <point x="671" y="908" type="line"/>
+      <point x="578" y="908" type="line"/>
+      <point x="578" y="1340" type="line"/>
+      <point x="545" y="1367" type="line"/>
+      <point x="500" y="1353"/>
+      <point x="418" y="1332"/>
+      <point x="372" y="1318" type="curve"/>
+      <point x="38" y="844" type="line"/>
+      <point x="69" y="818" type="line"/>
+      <point x="396" y="818" type="line"/>
+      <point x="396" y="713" type="line" smooth="yes"/>
+      <point x="396" y="699"/>
+      <point x="370" y="687"/>
+      <point x="248" y="670" type="curve"/>
+      <point x="248" y="620" type="line"/>
+      <point x="675" y="620" type="line"/>
+      <point x="675" y="670" type="line"/>
+      <point x="598" y="685"/>
+      <point x="578" y="694"/>
+      <point x="578" y="706" type="curve" smooth="yes"/>
+      <point x="578" y="818" type="line"/>
+      <point x="612" y="818" type="line"/>
+      <point x="634" y="832"/>
+    </contour>
+    <contour>
+      <point x="396" y="1196" type="line"/>
+      <point x="396" y="908" type="line"/>
+      <point x="184" y="908" type="line"/>
+    </contour>
+  </outline>
+</glyph>

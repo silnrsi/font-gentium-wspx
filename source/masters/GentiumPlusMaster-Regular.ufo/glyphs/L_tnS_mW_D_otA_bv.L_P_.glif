@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnSmWDotAbv.LP" format="2">
+  <advance width="1446"/>
+  <anchor x="730" y="-100" name="L"/>
+  <anchor x="750" y="1370" name="U"/>
+  <outline>
+    <component base="LtnSmW"/>
+    <component base="CombDotAbv.LP" xOffset="1265"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
+</glyph>

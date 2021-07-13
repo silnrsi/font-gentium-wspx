@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="GrCapUpsilonWDial" format="2">
+  <advance width="1301"/>
+  <unicode hex="03AB"/>
+  <outline>
+    <component base="GrCapUpsilon"/>
+    <component base="CombDiaer.LP" xOffset="1142" yOffset="370"/>
+  </outline>
+</glyph>
