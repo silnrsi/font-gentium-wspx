@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="SupMultSgn" format="2">
+  <advance width="588"/>
+  <unicode hex="E022"/>
+  <outline>
+    <contour>
+      <point x="503" y="781"/>
+      <point x="522" y="788" type="curve"/>
+      <point x="522" y="808" type="line"/>
+      <point x="131" y="1144" type="line"/>
+      <point x="111" y="1140"/>
+      <point x="84" y="1132"/>
+      <point x="66" y="1125" type="curve"/>
+      <point x="66" y="1105" type="line"/>
+      <point x="458" y="769" type="line"/>
+      <point x="475" y="773"/>
+    </contour>
+    <contour>
+      <point x="65" y="808" type="line"/>
+      <point x="65" y="788" type="line"/>
+      <point x="84" y="781"/>
+      <point x="113" y="773"/>
+      <point x="130" y="769" type="curve"/>
+      <point x="522" y="1105" type="line"/>
+      <point x="522" y="1125" type="line"/>
+      <point x="503" y="1132"/>
+      <point x="477" y="1140"/>
+      <point x="456" y="1144" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.18,0.16,0.78,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -5263,6 +5263,148 @@
     <string>ModTnYangPingDep</string>
     <string>ModTnYangQuDep</string>
     <string>ModTnYangRuDep</string>
+    <string>SupInfinity</string>
+    <string>SupUpArrwhd</string>
+    <string>SupMultSgn</string>
+    <string>SupMiddleDot</string>
+    <string>SupSolidus</string>
+    <string>SupSpace</string>
+    <string>SupAlmostEqTo</string>
+    <string>SupGTSgn</string>
+    <string>SupLTSgn</string>
+    <string>SupGTOrEqTo</string>
+    <string>SupLTOrEqTo</string>
+    <string>SupNotLTSgn</string>
+    <string>SupFullStop</string>
+    <string>SupComma</string>
+    <string>SupColon</string>
+    <string>SupSemicolon</string>
+    <string>SupDblSolidus</string>
+    <string>SupPerpendicular</string>
+    <string>SupDegreeSgn</string>
+    <string>WSPSupEqualSlash</string>
+    <string>WSPSupBoxSlash</string>
+    <string>WSPSupCircleSlash</string>
+    <string>WSPSupFlagSlash</string>
+    <string>WSPSupDblFlagSlash</string>
+    <string>SupVertLine</string>
+    <string>WSPLtnSupSmLBaseline</string>
+    <string>WSPModCapISerif</string>
+    <string>GrSupSmAlpha</string>
+    <string>GrSupSmEpsilon</string>
+    <string>GrSupSmZeta</string>
+    <string>GrSupSmEta</string>
+    <string>GrSupSmTheta</string>
+    <string>GrSupSmIota</string>
+    <string>GrSupSmKappa</string>
+    <string>GrSupSmLamda</string>
+    <string>GrSupSmMu</string>
+    <string>GrSupSmNu</string>
+    <string>GrSupSmXi</string>
+    <string>GrSupSmOmicron</string>
+    <string>GrSupSmPi</string>
+    <string>GrSupSmRho</string>
+    <string>GrSupSmSigma</string>
+    <string>GrSupSmTau</string>
+    <string>GrSupSmUpsilon</string>
+    <string>GrSupPhiSym</string>
+    <string>GrSupSmPsi</string>
+    <string>GrSupSmOmega</string>
+    <string>GrSupCapAlpha</string>
+    <string>GrSupCapBeta</string>
+    <string>GrSupCapGamma</string>
+    <string>GrSupCapDelta</string>
+    <string>GrSupCapEpsilon</string>
+    <string>GrSupCapZeta</string>
+    <string>GrSupCapEta</string>
+    <string>GrSupCapTheta</string>
+    <string>GrSupCapIota</string>
+    <string>GrSupCapKappa</string>
+    <string>GrSupCapLamda</string>
+    <string>GrSupCapMu</string>
+    <string>GrSupCapNu</string>
+    <string>GrSupCapXi</string>
+    <string>GrSupCapOmicron</string>
+    <string>GrSupCapPi</string>
+    <string>GrSupCapRho</string>
+    <string>GrSupCapSigma</string>
+    <string>GrSupCapTau</string>
+    <string>GrSupCapUpsilon</string>
+    <string>GrSupCapPhi</string>
+    <string>GrSupCapChi</string>
+    <string>GrSupCapPsi</string>
+    <string>GrSupCapOmega</string>
+    <string>SubInfinity</string>
+    <string>SubUpArrwhd</string>
+    <string>SubMultSgn</string>
+    <string>SubMiddleDot</string>
+    <string>SubSolidus</string>
+    <string>SubSpace</string>
+    <string>SubAlmostEqTo</string>
+    <string>SubGTSgn</string>
+    <string>SubLTSgn</string>
+    <string>SubGTOrEqTo</string>
+    <string>SubLTOrEqTo</string>
+    <string>SubNotLTSgn</string>
+    <string>SubFullStop</string>
+    <string>SubComma</string>
+    <string>SubColon</string>
+    <string>SubSemicolon</string>
+    <string>SubDblSolidus</string>
+    <string>SubPerpendicular</string>
+    <string>SubDegreeSgn</string>
+    <string>WSPSubEqualSlash</string>
+    <string>WSPSubBoxSlash</string>
+    <string>WSPSubCircleSlash</string>
+    <string>WSPSubFlagSlash</string>
+    <string>WSPSubDblFlagSlash</string>
+    <string>SubVertLine</string>
+    <string>WSPLtnSubSmLBaseline</string>
+    <string>WSPLtnSubCapISerif</string>
+    <string>GrSubSmAlpha</string>
+    <string>GrSubSmDelta</string>
+    <string>GrSubSmEpsilon</string>
+    <string>GrSubSmZeta</string>
+    <string>GrSubSmEta</string>
+    <string>GrSubSmTheta</string>
+    <string>GrSubSmIota</string>
+    <string>GrSubSmKappa</string>
+    <string>GrSubSmLamda</string>
+    <string>GrSubSmMu</string>
+    <string>GrSubSmNu</string>
+    <string>GrSubSmXi</string>
+    <string>GrSubSmOmicron</string>
+    <string>GrSubSmPi</string>
+    <string>GrSubSmSigma</string>
+    <string>GrSubSmTau</string>
+    <string>GrSubSmUpsilon</string>
+    <string>GrSubPhiSym</string>
+    <string>GrSubSmPsi</string>
+    <string>GrSubSmOmega</string>
+    <string>GrSubCapAlpha</string>
+    <string>GrSubCapBeta</string>
+    <string>GrSubCapGamma</string>
+    <string>GrSubCapDelta</string>
+    <string>GrSubCapEpsilon</string>
+    <string>GrSubCapZeta</string>
+    <string>GrSubCapEta</string>
+    <string>GrSubCapTheta</string>
+    <string>GrSubCapIota</string>
+    <string>GrSubCapKappa</string>
+    <string>GrSubCapLamda</string>
+    <string>GrSubCapMu</string>
+    <string>GrSubCapNu</string>
+    <string>GrSubCapXi</string>
+    <string>GrSubCapOmicron</string>
+    <string>GrSubCapPi</string>
+    <string>GrSubCapRho</string>
+    <string>GrSubCapSigma</string>
+    <string>GrSubCapTau</string>
+    <string>GrSubCapUpsilon</string>
+    <string>GrSubCapPhi</string>
+    <string>GrSubCapChi</string>
+    <string>GrSubCapPsi</string>
+    <string>GrSubCapOmega</string>
     <string>WSPPlusOrMinusSlash</string>
     <string>WSPFracSlashAlt</string>
     <string>WSPPlusOrMinus</string>
@@ -7736,18 +7878,194 @@
     <string>zeta</string>
     <key>GrStigma</key>
     <string>uni03DA</string>
+    <key>GrSubCapAlpha</key>
+    <string>uniE360</string>
+    <key>GrSubCapBeta</key>
+    <string>uniE361</string>
+    <key>GrSubCapChi</key>
+    <string>uniE376</string>
+    <key>GrSubCapDelta</key>
+    <string>uniE363</string>
+    <key>GrSubCapEpsilon</key>
+    <string>uniE364</string>
+    <key>GrSubCapEta</key>
+    <string>uniE366</string>
+    <key>GrSubCapGamma</key>
+    <string>uniE362</string>
+    <key>GrSubCapIota</key>
+    <string>uniE368</string>
+    <key>GrSubCapKappa</key>
+    <string>uniE369</string>
+    <key>GrSubCapLamda</key>
+    <string>uniE36A</string>
+    <key>GrSubCapMu</key>
+    <string>uniE36B</string>
+    <key>GrSubCapNu</key>
+    <string>uniE36C</string>
+    <key>GrSubCapOmega</key>
+    <string>uniE378</string>
+    <key>GrSubCapOmicron</key>
+    <string>uniE36E</string>
+    <key>GrSubCapPhi</key>
+    <string>uniE374</string>
+    <key>GrSubCapPi</key>
+    <string>uniE36F</string>
+    <key>GrSubCapPsi</key>
+    <string>uniE377</string>
+    <key>GrSubCapRho</key>
+    <string>uniE370</string>
+    <key>GrSubCapSigma</key>
+    <string>uniE371</string>
+    <key>GrSubCapTau</key>
+    <string>uniE372</string>
+    <key>GrSubCapTheta</key>
+    <string>uniE367</string>
+    <key>GrSubCapUpsilon</key>
+    <string>uniE373</string>
+    <key>GrSubCapXi</key>
+    <string>uniE36D</string>
+    <key>GrSubCapZeta</key>
+    <string>uniE365</string>
+    <key>GrSubPhiSym</key>
+    <string>uniE354</string>
+    <key>GrSubSmAlpha</key>
+    <string>uniE340</string>
     <key>GrSubSmBeta</key>
     <string>uni1D66</string>
     <key>GrSubSmBeta.Serif</key>
     <string>uni1D66.Serif</string>
     <key>GrSubSmChi</key>
     <string>uni1D6A</string>
+    <key>GrSubSmDelta</key>
+    <string>uniE343</string>
+    <key>GrSubSmEpsilon</key>
+    <string>uniE344</string>
+    <key>GrSubSmEta</key>
+    <string>uniE346</string>
     <key>GrSubSmGamma</key>
     <string>uni1D67</string>
+    <key>GrSubSmIota</key>
+    <string>uniE348</string>
+    <key>GrSubSmKappa</key>
+    <string>uniE349</string>
+    <key>GrSubSmLamda</key>
+    <string>uniE34A</string>
+    <key>GrSubSmMu</key>
+    <string>uniE34B</string>
+    <key>GrSubSmNu</key>
+    <string>uniE34C</string>
+    <key>GrSubSmOmega</key>
+    <string>uniE358</string>
+    <key>GrSubSmOmicron</key>
+    <string>uniE34E</string>
     <key>GrSubSmPhi</key>
     <string>uni1D69</string>
+    <key>GrSubSmPi</key>
+    <string>uniE34F</string>
+    <key>GrSubSmPsi</key>
+    <string>uniE357</string>
     <key>GrSubSmRho</key>
     <string>uni1D68</string>
+    <key>GrSubSmSigma</key>
+    <string>uniE351</string>
+    <key>GrSubSmTau</key>
+    <string>uniE352</string>
+    <key>GrSubSmTheta</key>
+    <string>uniE347</string>
+    <key>GrSubSmUpsilon</key>
+    <string>uniE353</string>
+    <key>GrSubSmXi</key>
+    <string>uniE34D</string>
+    <key>GrSubSmZeta</key>
+    <string>uniE345</string>
+    <key>GrSupCapAlpha</key>
+    <string>uniE160</string>
+    <key>GrSupCapBeta</key>
+    <string>uniE161</string>
+    <key>GrSupCapChi</key>
+    <string>uniE176</string>
+    <key>GrSupCapDelta</key>
+    <string>uniE163</string>
+    <key>GrSupCapEpsilon</key>
+    <string>uniE164</string>
+    <key>GrSupCapEta</key>
+    <string>uniE166</string>
+    <key>GrSupCapGamma</key>
+    <string>uniE162</string>
+    <key>GrSupCapIota</key>
+    <string>uniE168</string>
+    <key>GrSupCapKappa</key>
+    <string>uniE169</string>
+    <key>GrSupCapLamda</key>
+    <string>uniE16A</string>
+    <key>GrSupCapMu</key>
+    <string>uniE16B</string>
+    <key>GrSupCapNu</key>
+    <string>uniE16C</string>
+    <key>GrSupCapOmega</key>
+    <string>uniE178</string>
+    <key>GrSupCapOmicron</key>
+    <string>uniE16E</string>
+    <key>GrSupCapPhi</key>
+    <string>uniE174</string>
+    <key>GrSupCapPi</key>
+    <string>uniE16F</string>
+    <key>GrSupCapPsi</key>
+    <string>uniE177</string>
+    <key>GrSupCapRho</key>
+    <string>uniE170</string>
+    <key>GrSupCapSigma</key>
+    <string>uniE171</string>
+    <key>GrSupCapTau</key>
+    <string>uniE172</string>
+    <key>GrSupCapTheta</key>
+    <string>uniE167</string>
+    <key>GrSupCapUpsilon</key>
+    <string>uniE173</string>
+    <key>GrSupCapXi</key>
+    <string>uniE16D</string>
+    <key>GrSupCapZeta</key>
+    <string>uniE165</string>
+    <key>GrSupPhiSym</key>
+    <string>uniE154</string>
+    <key>GrSupSmAlpha</key>
+    <string>uniE140</string>
+    <key>GrSupSmEpsilon</key>
+    <string>uniE144</string>
+    <key>GrSupSmEta</key>
+    <string>uniE146</string>
+    <key>GrSupSmIota</key>
+    <string>uniE148</string>
+    <key>GrSupSmKappa</key>
+    <string>uniE149</string>
+    <key>GrSupSmLamda</key>
+    <string>uniE14A</string>
+    <key>GrSupSmMu</key>
+    <string>uniE14B</string>
+    <key>GrSupSmNu</key>
+    <string>uniE14C</string>
+    <key>GrSupSmOmega</key>
+    <string>uniE158</string>
+    <key>GrSupSmOmicron</key>
+    <string>uniE14E</string>
+    <key>GrSupSmPi</key>
+    <string>uniE14F</string>
+    <key>GrSupSmPsi</key>
+    <string>uniE157</string>
+    <key>GrSupSmRho</key>
+    <string>uniE150</string>
+    <key>GrSupSmSigma</key>
+    <string>uniE151</string>
+    <key>GrSupSmTau</key>
+    <string>uniE152</string>
+    <key>GrSupSmTheta</key>
+    <string>uniE147</string>
+    <key>GrSupSmUpsilon</key>
+    <string>uniE153</string>
+    <key>GrSupSmXi</key>
+    <string>uniE14D</string>
+    <key>GrSupSmZeta</key>
+    <string>uniE145</string>
     <key>GrThetaSym</key>
     <string>theta1</string>
     <key>GrThetaSym.sc</key>
@@ -13470,6 +13788,16 @@
     <string>uniF135</string>
     <key>SqrTxtBracLowRtShort</key>
     <string>uni231F</string>
+    <key>SubAlmostEqTo</key>
+    <string>uniE229</string>
+    <key>SubColon</key>
+    <string>uniE232</string>
+    <key>SubComma</key>
+    <string>uniE231</string>
+    <key>SubDblSolidus</key>
+    <string>uniE234</string>
+    <key>SubDegreeSgn</key>
+    <string>uniE236</string>
     <key>SubEight</key>
     <string>uni2088</string>
     <key>SubEqSgn</key>
@@ -13478,32 +13806,72 @@
     <string>uni2085</string>
     <key>SubFour</key>
     <string>uni2084</string>
+    <key>SubFullStop</key>
+    <string>uniE230</string>
+    <key>SubGTOrEqTo</key>
+    <string>uniE22C</string>
+    <key>SubGTSgn</key>
+    <string>uniE22A</string>
+    <key>SubInfinity</key>
+    <string>uniE20A</string>
+    <key>SubLTOrEqTo</key>
+    <string>uniE22D</string>
+    <key>SubLTSgn</key>
+    <string>uniE22B</string>
     <key>SubLftParen</key>
     <string>uni208D</string>
+    <key>SubMiddleDot</key>
+    <string>uniE223</string>
     <key>SubMinus</key>
     <string>uni208B</string>
+    <key>SubMultSgn</key>
+    <string>uniE222</string>
     <key>SubNine</key>
     <string>uni2089</string>
+    <key>SubNotLTSgn</key>
+    <string>uniE22F</string>
     <key>SubOne</key>
     <string>uni2081</string>
+    <key>SubPerpendicular</key>
+    <string>uniE235</string>
     <key>SubPlusSgn</key>
     <string>uni208A</string>
     <key>SubRtParen</key>
     <string>uni208E</string>
+    <key>SubSemicolon</key>
+    <string>uniE233</string>
     <key>SubSeven</key>
     <string>uni2087</string>
     <key>SubSix</key>
     <string>uni2086</string>
+    <key>SubSolidus</key>
+    <string>uniE224</string>
+    <key>SubSpace</key>
+    <string>uniE228</string>
     <key>SubThree</key>
     <string>uni2083</string>
     <key>SubTwo</key>
     <string>uni2082</string>
+    <key>SubUpArrwhd</key>
+    <string>uniE21F</string>
+    <key>SubVertLine</key>
+    <string>uniE250</string>
     <key>SubZero</key>
     <string>uni2080</string>
     <key>SubsetOf</key>
     <string>uni2282</string>
     <key>SubsetOfEqTo</key>
     <string>uni2286</string>
+    <key>SupAlmostEqTo</key>
+    <string>uniE029</string>
+    <key>SupColon</key>
+    <string>uniE032</string>
+    <key>SupComma</key>
+    <string>uniE031</string>
+    <key>SupDblSolidus</key>
+    <string>uniE034</string>
+    <key>SupDegreeSgn</key>
+    <string>uniE036</string>
     <key>SupEight</key>
     <string>uni2078</string>
     <key>SupEqSgn</key>
@@ -13512,26 +13880,56 @@
     <string>uni2075</string>
     <key>SupFour</key>
     <string>uni2074</string>
+    <key>SupFullStop</key>
+    <string>uniE030</string>
+    <key>SupGTOrEqTo</key>
+    <string>uniE02C</string>
+    <key>SupGTSgn</key>
+    <string>uniE02A</string>
+    <key>SupInfinity</key>
+    <string>uniE00A</string>
+    <key>SupLTOrEqTo</key>
+    <string>uniE02D</string>
+    <key>SupLTSgn</key>
+    <string>uniE02B</string>
     <key>SupLftParen</key>
     <string>uni207D</string>
+    <key>SupMiddleDot</key>
+    <string>uniE023</string>
     <key>SupMinus</key>
     <string>uni207B</string>
+    <key>SupMultSgn</key>
+    <string>uniE022</string>
     <key>SupNine</key>
     <string>uni2079</string>
+    <key>SupNotLTSgn</key>
+    <string>uniE02F</string>
     <key>SupOne</key>
     <string>onesuperior</string>
+    <key>SupPerpendicular</key>
+    <string>uniE035</string>
     <key>SupPlusSgn</key>
     <string>uni207A</string>
     <key>SupRtParen</key>
     <string>uni207E</string>
+    <key>SupSemicolon</key>
+    <string>uniE033</string>
     <key>SupSeven</key>
     <string>uni2077</string>
     <key>SupSix</key>
     <string>uni2076</string>
+    <key>SupSolidus</key>
+    <string>uniE024</string>
+    <key>SupSpace</key>
+    <string>uniE028</string>
     <key>SupThree</key>
     <string>threesuperior</string>
     <key>SupTwo</key>
     <string>twosuperior</string>
+    <key>SupUpArrwhd</key>
+    <string>uniE01F</string>
+    <key>SupVertLine</key>
+    <string>uniE050</string>
     <key>SupZero</key>
     <string>uni2070</string>
     <key>SupersetOf</key>
@@ -13952,6 +14350,14 @@
     <string>uniE602</string>
     <key>WSPLtnSmLBaselineTail</key>
     <string>uniE501</string>
+    <key>WSPLtnSubCapISerif</key>
+    <string>uniE33B</string>
+    <key>WSPLtnSubSmLBaseline</key>
+    <string>uniE30C</string>
+    <key>WSPLtnSupSmLBaseline</key>
+    <string>uniE10C</string>
+    <key>WSPModCapISerif</key>
+    <string>uniE13B</string>
     <key>WSPPlusOrMinus</key>
     <string>uniE417</string>
     <key>WSPPlusOrMinusSlash</key>
@@ -13972,6 +14378,26 @@
     <string>uniE434</string>
     <key>WSPPowerThousandth</key>
     <string>uniE433</string>
+    <key>WSPSubBoxSlash</key>
+    <string>uniE241</string>
+    <key>WSPSubCircleSlash</key>
+    <string>uniE242</string>
+    <key>WSPSubDblFlagSlash</key>
+    <string>uniE244</string>
+    <key>WSPSubEqualSlash</key>
+    <string>uniE240</string>
+    <key>WSPSubFlagSlash</key>
+    <string>uniE243</string>
+    <key>WSPSupBoxSlash</key>
+    <string>uniE041</string>
+    <key>WSPSupCircleSlash</key>
+    <string>uniE042</string>
+    <key>WSPSupDblFlagSlash</key>
+    <string>uniE044</string>
+    <key>WSPSupEqualSlash</key>
+    <string>uniE040</string>
+    <key>WSPSupFlagSlash</key>
+    <string>uniE043</string>
     <key>WonSgn</key>
     <string>uni20A9</string>
     <key>WordJoiner</key>

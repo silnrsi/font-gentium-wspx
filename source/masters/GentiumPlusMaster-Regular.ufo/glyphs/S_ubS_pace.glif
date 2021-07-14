@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="SubSpace" format="2">
+  <advance width="315"/>
+  <unicode hex="E228"/>
+  <anchor x="158" y="-200" name="H"/>
+  <anchor x="158" y="-260" name="L"/>
+  <anchor x="192" y="-200" name="O"/>
+  <anchor x="316" y="340" name="R"/>
+  <anchor x="158" y="622" name="U"/>
+  <outline/>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
+</glyph>

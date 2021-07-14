@@ -2458,18 +2458,194 @@
   <string>G_rS_mZ_eta.glif</string>
   <key>GrStigma</key>
   <string>G_rS_tigma.glif</string>
+  <key>GrSubCapAlpha</key>
+  <string>G_rS_ubC_apA_lpha.glif</string>
+  <key>GrSubCapBeta</key>
+  <string>G_rS_ubC_apB_eta.glif</string>
+  <key>GrSubCapChi</key>
+  <string>G_rS_ubC_apC_hi.glif</string>
+  <key>GrSubCapDelta</key>
+  <string>G_rS_ubC_apD_elta.glif</string>
+  <key>GrSubCapEpsilon</key>
+  <string>G_rS_ubC_apE_psilon.glif</string>
+  <key>GrSubCapEta</key>
+  <string>G_rS_ubC_apE_ta.glif</string>
+  <key>GrSubCapGamma</key>
+  <string>G_rS_ubC_apG_amma.glif</string>
+  <key>GrSubCapIota</key>
+  <string>G_rS_ubC_apI_ota.glif</string>
+  <key>GrSubCapKappa</key>
+  <string>G_rS_ubC_apK_appa.glif</string>
+  <key>GrSubCapLamda</key>
+  <string>G_rS_ubC_apL_amda.glif</string>
+  <key>GrSubCapMu</key>
+  <string>G_rS_ubC_apM_u.glif</string>
+  <key>GrSubCapNu</key>
+  <string>G_rS_ubC_apN_u.glif</string>
+  <key>GrSubCapOmega</key>
+  <string>G_rS_ubC_apO_mega.glif</string>
+  <key>GrSubCapOmicron</key>
+  <string>G_rS_ubC_apO_micron.glif</string>
+  <key>GrSubCapPhi</key>
+  <string>G_rS_ubC_apP_hi.glif</string>
+  <key>GrSubCapPi</key>
+  <string>G_rS_ubC_apP_i.glif</string>
+  <key>GrSubCapPsi</key>
+  <string>G_rS_ubC_apP_si.glif</string>
+  <key>GrSubCapRho</key>
+  <string>G_rS_ubC_apR_ho.glif</string>
+  <key>GrSubCapSigma</key>
+  <string>G_rS_ubC_apS_igma.glif</string>
+  <key>GrSubCapTau</key>
+  <string>G_rS_ubC_apT_au.glif</string>
+  <key>GrSubCapTheta</key>
+  <string>G_rS_ubC_apT_heta.glif</string>
+  <key>GrSubCapUpsilon</key>
+  <string>G_rS_ubC_apU_psilon.glif</string>
+  <key>GrSubCapXi</key>
+  <string>G_rS_ubC_apX_i.glif</string>
+  <key>GrSubCapZeta</key>
+  <string>G_rS_ubC_apZ_eta.glif</string>
+  <key>GrSubPhiSym</key>
+  <string>G_rS_ubP_hiS_ym.glif</string>
+  <key>GrSubSmAlpha</key>
+  <string>G_rS_ubS_mA_lpha.glif</string>
   <key>GrSubSmBeta</key>
   <string>G_rS_ubS_mB_eta.glif</string>
   <key>GrSubSmBeta.Serif</key>
   <string>G_rS_ubS_mB_eta.S_erif.glif</string>
   <key>GrSubSmChi</key>
   <string>G_rS_ubS_mC_hi.glif</string>
+  <key>GrSubSmDelta</key>
+  <string>G_rS_ubS_mD_elta.glif</string>
+  <key>GrSubSmEpsilon</key>
+  <string>G_rS_ubS_mE_psilon.glif</string>
+  <key>GrSubSmEta</key>
+  <string>G_rS_ubS_mE_ta.glif</string>
   <key>GrSubSmGamma</key>
   <string>G_rS_ubS_mG_amma.glif</string>
+  <key>GrSubSmIota</key>
+  <string>G_rS_ubS_mI_ota.glif</string>
+  <key>GrSubSmKappa</key>
+  <string>G_rS_ubS_mK_appa.glif</string>
+  <key>GrSubSmLamda</key>
+  <string>G_rS_ubS_mL_amda.glif</string>
+  <key>GrSubSmMu</key>
+  <string>G_rS_ubS_mM_u.glif</string>
+  <key>GrSubSmNu</key>
+  <string>G_rS_ubS_mN_u.glif</string>
+  <key>GrSubSmOmega</key>
+  <string>G_rS_ubS_mO_mega.glif</string>
+  <key>GrSubSmOmicron</key>
+  <string>G_rS_ubS_mO_micron.glif</string>
   <key>GrSubSmPhi</key>
   <string>G_rS_ubS_mP_hi.glif</string>
+  <key>GrSubSmPi</key>
+  <string>G_rS_ubS_mP_i.glif</string>
+  <key>GrSubSmPsi</key>
+  <string>G_rS_ubS_mP_si.glif</string>
   <key>GrSubSmRho</key>
   <string>G_rS_ubS_mR_ho.glif</string>
+  <key>GrSubSmSigma</key>
+  <string>G_rS_ubS_mS_igma.glif</string>
+  <key>GrSubSmTau</key>
+  <string>G_rS_ubS_mT_au.glif</string>
+  <key>GrSubSmTheta</key>
+  <string>G_rS_ubS_mT_heta.glif</string>
+  <key>GrSubSmUpsilon</key>
+  <string>G_rS_ubS_mU_psilon.glif</string>
+  <key>GrSubSmXi</key>
+  <string>G_rS_ubS_mX_i.glif</string>
+  <key>GrSubSmZeta</key>
+  <string>G_rS_ubS_mZ_eta.glif</string>
+  <key>GrSupCapAlpha</key>
+  <string>G_rS_upC_apA_lpha.glif</string>
+  <key>GrSupCapBeta</key>
+  <string>G_rS_upC_apB_eta.glif</string>
+  <key>GrSupCapChi</key>
+  <string>G_rS_upC_apC_hi.glif</string>
+  <key>GrSupCapDelta</key>
+  <string>G_rS_upC_apD_elta.glif</string>
+  <key>GrSupCapEpsilon</key>
+  <string>G_rS_upC_apE_psilon.glif</string>
+  <key>GrSupCapEta</key>
+  <string>G_rS_upC_apE_ta.glif</string>
+  <key>GrSupCapGamma</key>
+  <string>G_rS_upC_apG_amma.glif</string>
+  <key>GrSupCapIota</key>
+  <string>G_rS_upC_apI_ota.glif</string>
+  <key>GrSupCapKappa</key>
+  <string>G_rS_upC_apK_appa.glif</string>
+  <key>GrSupCapLamda</key>
+  <string>G_rS_upC_apL_amda.glif</string>
+  <key>GrSupCapMu</key>
+  <string>G_rS_upC_apM_u.glif</string>
+  <key>GrSupCapNu</key>
+  <string>G_rS_upC_apN_u.glif</string>
+  <key>GrSupCapOmega</key>
+  <string>G_rS_upC_apO_mega.glif</string>
+  <key>GrSupCapOmicron</key>
+  <string>G_rS_upC_apO_micron.glif</string>
+  <key>GrSupCapPhi</key>
+  <string>G_rS_upC_apP_hi.glif</string>
+  <key>GrSupCapPi</key>
+  <string>G_rS_upC_apP_i.glif</string>
+  <key>GrSupCapPsi</key>
+  <string>G_rS_upC_apP_si.glif</string>
+  <key>GrSupCapRho</key>
+  <string>G_rS_upC_apR_ho.glif</string>
+  <key>GrSupCapSigma</key>
+  <string>G_rS_upC_apS_igma.glif</string>
+  <key>GrSupCapTau</key>
+  <string>G_rS_upC_apT_au.glif</string>
+  <key>GrSupCapTheta</key>
+  <string>G_rS_upC_apT_heta.glif</string>
+  <key>GrSupCapUpsilon</key>
+  <string>G_rS_upC_apU_psilon.glif</string>
+  <key>GrSupCapXi</key>
+  <string>G_rS_upC_apX_i.glif</string>
+  <key>GrSupCapZeta</key>
+  <string>G_rS_upC_apZ_eta.glif</string>
+  <key>GrSupPhiSym</key>
+  <string>G_rS_upP_hiS_ym.glif</string>
+  <key>GrSupSmAlpha</key>
+  <string>G_rS_upS_mA_lpha.glif</string>
+  <key>GrSupSmEpsilon</key>
+  <string>G_rS_upS_mE_psilon.glif</string>
+  <key>GrSupSmEta</key>
+  <string>G_rS_upS_mE_ta.glif</string>
+  <key>GrSupSmIota</key>
+  <string>G_rS_upS_mI_ota.glif</string>
+  <key>GrSupSmKappa</key>
+  <string>G_rS_upS_mK_appa.glif</string>
+  <key>GrSupSmLamda</key>
+  <string>G_rS_upS_mL_amda.glif</string>
+  <key>GrSupSmMu</key>
+  <string>G_rS_upS_mM_u.glif</string>
+  <key>GrSupSmNu</key>
+  <string>G_rS_upS_mN_u.glif</string>
+  <key>GrSupSmOmega</key>
+  <string>G_rS_upS_mO_mega.glif</string>
+  <key>GrSupSmOmicron</key>
+  <string>G_rS_upS_mO_micron.glif</string>
+  <key>GrSupSmPi</key>
+  <string>G_rS_upS_mP_i.glif</string>
+  <key>GrSupSmPsi</key>
+  <string>G_rS_upS_mP_si.glif</string>
+  <key>GrSupSmRho</key>
+  <string>G_rS_upS_mR_ho.glif</string>
+  <key>GrSupSmSigma</key>
+  <string>G_rS_upS_mS_igma.glif</string>
+  <key>GrSupSmTau</key>
+  <string>G_rS_upS_mT_au.glif</string>
+  <key>GrSupSmTheta</key>
+  <string>G_rS_upS_mT_heta.glif</string>
+  <key>GrSupSmUpsilon</key>
+  <string>G_rS_upS_mU_psilon.glif</string>
+  <key>GrSupSmXi</key>
+  <string>G_rS_upS_mX_i.glif</string>
+  <key>GrSupSmZeta</key>
+  <string>G_rS_upS_mZ_eta.glif</string>
   <key>GrThetaSym</key>
   <string>G_rT_hetaS_ym.glif</string>
   <key>GrThetaSym.sc</key>
@@ -8192,6 +8368,16 @@
   <string>S_qrT_xtB_racL_owR_tD_ep.glif</string>
   <key>SqrTxtBracLowRtShort</key>
   <string>S_qrT_xtB_racL_owR_tS_hort.glif</string>
+  <key>SubAlmostEqTo</key>
+  <string>S_ubA_lmostE_qT_o.glif</string>
+  <key>SubColon</key>
+  <string>S_ubC_olon.glif</string>
+  <key>SubComma</key>
+  <string>S_ubC_omma.glif</string>
+  <key>SubDblSolidus</key>
+  <string>S_ubD_blS_olidus.glif</string>
+  <key>SubDegreeSgn</key>
+  <string>S_ubD_egreeS_gn.glif</string>
   <key>SubEight</key>
   <string>S_ubE_ight.glif</string>
   <key>SubEqSgn</key>
@@ -8200,32 +8386,72 @@
   <string>S_ubF_ive.glif</string>
   <key>SubFour</key>
   <string>S_ubF_our.glif</string>
+  <key>SubFullStop</key>
+  <string>S_ubF_ullS_top.glif</string>
+  <key>SubGTOrEqTo</key>
+  <string>S_ubG_T_O_rE_qT_o.glif</string>
+  <key>SubGTSgn</key>
+  <string>S_ubG_T_S_gn.glif</string>
+  <key>SubInfinity</key>
+  <string>S_ubI_nfinity.glif</string>
+  <key>SubLTOrEqTo</key>
+  <string>S_ubL_T_O_rE_qT_o.glif</string>
+  <key>SubLTSgn</key>
+  <string>S_ubL_T_S_gn.glif</string>
   <key>SubLftParen</key>
   <string>S_ubL_ftP_aren.glif</string>
+  <key>SubMiddleDot</key>
+  <string>S_ubM_iddleD_ot.glif</string>
   <key>SubMinus</key>
   <string>S_ubM_inus.glif</string>
+  <key>SubMultSgn</key>
+  <string>S_ubM_ultS_gn.glif</string>
   <key>SubNine</key>
   <string>S_ubN_ine.glif</string>
+  <key>SubNotLTSgn</key>
+  <string>S_ubN_otL_T_S_gn.glif</string>
   <key>SubOne</key>
   <string>S_ubO_ne.glif</string>
+  <key>SubPerpendicular</key>
+  <string>S_ubP_erpendicular.glif</string>
   <key>SubPlusSgn</key>
   <string>S_ubP_lusS_gn.glif</string>
   <key>SubRtParen</key>
   <string>S_ubR_tP_aren.glif</string>
+  <key>SubSemicolon</key>
+  <string>S_ubS_emicolon.glif</string>
   <key>SubSeven</key>
   <string>S_ubS_even.glif</string>
   <key>SubSix</key>
   <string>S_ubS_ix.glif</string>
+  <key>SubSolidus</key>
+  <string>S_ubS_olidus.glif</string>
+  <key>SubSpace</key>
+  <string>S_ubS_pace.glif</string>
   <key>SubThree</key>
   <string>S_ubT_hree.glif</string>
   <key>SubTwo</key>
   <string>S_ubT_wo.glif</string>
+  <key>SubUpArrwhd</key>
+  <string>S_ubU_pA_rrwhd.glif</string>
+  <key>SubVertLine</key>
+  <string>S_ubV_ertL_ine.glif</string>
   <key>SubZero</key>
   <string>S_ubZ_ero.glif</string>
   <key>SubsetOf</key>
   <string>S_ubsetO_f.glif</string>
   <key>SubsetOfEqTo</key>
   <string>S_ubsetO_fE_qT_o.glif</string>
+  <key>SupAlmostEqTo</key>
+  <string>S_upA_lmostE_qT_o.glif</string>
+  <key>SupColon</key>
+  <string>S_upC_olon.glif</string>
+  <key>SupComma</key>
+  <string>S_upC_omma.glif</string>
+  <key>SupDblSolidus</key>
+  <string>S_upD_blS_olidus.glif</string>
+  <key>SupDegreeSgn</key>
+  <string>S_upD_egreeS_gn.glif</string>
   <key>SupEight</key>
   <string>S_upE_ight.glif</string>
   <key>SupEqSgn</key>
@@ -8234,26 +8460,56 @@
   <string>S_upF_ive.glif</string>
   <key>SupFour</key>
   <string>S_upF_our.glif</string>
+  <key>SupFullStop</key>
+  <string>S_upF_ullS_top.glif</string>
+  <key>SupGTOrEqTo</key>
+  <string>S_upG_T_O_rE_qT_o.glif</string>
+  <key>SupGTSgn</key>
+  <string>S_upG_T_S_gn.glif</string>
+  <key>SupInfinity</key>
+  <string>S_upI_nfinity.glif</string>
+  <key>SupLTOrEqTo</key>
+  <string>S_upL_T_O_rE_qT_o.glif</string>
+  <key>SupLTSgn</key>
+  <string>S_upL_T_S_gn.glif</string>
   <key>SupLftParen</key>
   <string>S_upL_ftP_aren.glif</string>
+  <key>SupMiddleDot</key>
+  <string>S_upM_iddleD_ot.glif</string>
   <key>SupMinus</key>
   <string>S_upM_inus.glif</string>
+  <key>SupMultSgn</key>
+  <string>S_upM_ultS_gn.glif</string>
   <key>SupNine</key>
   <string>S_upN_ine.glif</string>
+  <key>SupNotLTSgn</key>
+  <string>S_upN_otL_T_S_gn.glif</string>
   <key>SupOne</key>
   <string>S_upO_ne.glif</string>
+  <key>SupPerpendicular</key>
+  <string>S_upP_erpendicular.glif</string>
   <key>SupPlusSgn</key>
   <string>S_upP_lusS_gn.glif</string>
   <key>SupRtParen</key>
   <string>S_upR_tP_aren.glif</string>
+  <key>SupSemicolon</key>
+  <string>S_upS_emicolon.glif</string>
   <key>SupSeven</key>
   <string>S_upS_even.glif</string>
   <key>SupSix</key>
   <string>S_upS_ix.glif</string>
+  <key>SupSolidus</key>
+  <string>S_upS_olidus.glif</string>
+  <key>SupSpace</key>
+  <string>S_upS_pace.glif</string>
   <key>SupThree</key>
   <string>S_upT_hree.glif</string>
   <key>SupTwo</key>
   <string>S_upT_wo.glif</string>
+  <key>SupUpArrwhd</key>
+  <string>S_upU_pA_rrwhd.glif</string>
+  <key>SupVertLine</key>
+  <string>S_upV_ertL_ine.glif</string>
   <key>SupZero</key>
   <string>S_upZ_ero.glif</string>
   <key>SupersetOf</key>
@@ -8674,6 +8930,14 @@
   <string>W_S_P_L_oop.glif</string>
   <key>WSPLtnSmLBaselineTail</key>
   <string>W_S_P_L_tnS_mL_B_aselineT_ail.glif</string>
+  <key>WSPLtnSubCapISerif</key>
+  <string>W_S_P_L_tnS_ubC_apI_S_erif.glif</string>
+  <key>WSPLtnSubSmLBaseline</key>
+  <string>W_S_P_L_tnS_ubS_mL_B_aseline.glif</string>
+  <key>WSPLtnSupSmLBaseline</key>
+  <string>W_S_P_L_tnS_upS_mL_B_aseline.glif</string>
+  <key>WSPModCapISerif</key>
+  <string>W_S_P_M_odC_apI_S_erif.glif</string>
   <key>WSPPlusOrMinus</key>
   <string>W_S_P_P_lusO_rM_inus.glif</string>
   <key>WSPPlusOrMinusSlash</key>
@@ -8694,6 +8958,26 @@
   <string>W_S_P_P_owerT_housand.glif</string>
   <key>WSPPowerThousandth</key>
   <string>W_S_P_P_owerT_housandth.glif</string>
+  <key>WSPSubBoxSlash</key>
+  <string>W_S_P_S_ubB_oxS_lash.glif</string>
+  <key>WSPSubCircleSlash</key>
+  <string>W_S_P_S_ubC_ircleS_lash.glif</string>
+  <key>WSPSubDblFlagSlash</key>
+  <string>W_S_P_S_ubD_blF_lagS_lash.glif</string>
+  <key>WSPSubEqualSlash</key>
+  <string>W_S_P_S_ubE_qualS_lash.glif</string>
+  <key>WSPSubFlagSlash</key>
+  <string>W_S_P_S_ubF_lagS_lash.glif</string>
+  <key>WSPSupBoxSlash</key>
+  <string>W_S_P_S_upB_oxS_lash.glif</string>
+  <key>WSPSupCircleSlash</key>
+  <string>W_S_P_S_upC_ircleS_lash.glif</string>
+  <key>WSPSupDblFlagSlash</key>
+  <string>W_S_P_S_upD_blF_lagS_lash.glif</string>
+  <key>WSPSupEqualSlash</key>
+  <string>W_S_P_S_upE_qualS_lash.glif</string>
+  <key>WSPSupFlagSlash</key>
+  <string>W_S_P_S_upF_lagS_lash.glif</string>
   <key>WonSgn</key>
   <string>W_onS_gn.glif</string>
   <key>WordJoiner</key>

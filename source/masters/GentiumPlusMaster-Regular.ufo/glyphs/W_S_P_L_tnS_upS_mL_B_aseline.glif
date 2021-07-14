@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="WSPLtnSupSmLBaseline" format="2">
+  <advance width="411"/>
+  <unicode hex="E10C"/>
+  <outline>
+    <contour>
+      <point x="226" y="602" type="curve" smooth="yes"/>
+      <point x="262" y="602"/>
+      <point x="331" y="624"/>
+      <point x="426" y="701" type="curve"/>
+      <point x="414" y="732" type="line"/>
+      <point x="354" y="695"/>
+      <point x="307" y="684"/>
+      <point x="297" y="684" type="curve" smooth="yes"/>
+      <point x="255" y="684"/>
+      <point x="245" y="694"/>
+      <point x="245" y="802" type="curve" smooth="yes"/>
+      <point x="245" y="1532" type="line"/>
+      <point x="220" y="1550" type="line"/>
+      <point x="175" y="1529"/>
+      <point x="100" y="1509"/>
+      <point x="41" y="1502" type="curve"/>
+      <point x="41" y="1478" type="line"/>
+      <point x="142" y="1470"/>
+      <point x="140" y="1458"/>
+      <point x="140" y="1376" type="curve" smooth="yes"/>
+      <point x="140" y="742" type="line" smooth="yes"/>
+      <point x="140" y="646"/>
+      <point x="156" y="602"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.18,0.16,0.78,1</string>
+    </dict>
+  </lib>
+</glyph>

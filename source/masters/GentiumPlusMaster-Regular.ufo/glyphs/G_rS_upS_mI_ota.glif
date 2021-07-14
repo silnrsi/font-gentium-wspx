@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="GrSupSmIota" format="2">
+  <advance width="422"/>
+  <unicode hex="E148"/>
+  <anchor x="207" y="1250" name="U"/>
+  <outline>
+    <contour>
+      <point x="320" y="628"/>
+      <point x="405" y="685" type="curve"/>
+      <point x="398" y="712" type="line"/>
+      <point x="340" y="687"/>
+      <point x="305" y="682"/>
+      <point x="291" y="682" type="curve" smooth="yes"/>
+      <point x="272" y="682"/>
+      <point x="258" y="691"/>
+      <point x="260" y="802" type="curve" smooth="yes"/>
+      <point x="267" y="1172" type="line"/>
+      <point x="244" y="1196" type="line"/>
+      <point x="183" y="1173"/>
+      <point x="109" y="1156"/>
+      <point x="49" y="1147" type="curve"/>
+      <point x="49" y="1123" type="line"/>
+      <point x="153" y="1123"/>
+      <point x="156" y="1105"/>
+      <point x="155" y="1021" type="curve" smooth="yes"/>
+      <point x="149" y="742" type="line" smooth="yes"/>
+      <point x="147" y="645"/>
+      <point x="165" y="602"/>
+      <point x="230" y="602" type="curve" smooth="yes"/>
+      <point x="260" y="602"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.18,0.16,0.78,1</string>
+    </dict>
+  </lib>
+</glyph>
