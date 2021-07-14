@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="DigitThree.numr" format="2">
   <advance width="530"/>
+  <unicode hex="E013"/>
   <outline>
     <contour>
       <point x="255" y="628" type="curve" smooth="yes"/>

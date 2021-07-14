@@ -2,6 +2,7 @@
 <glyph name="ModCapE" format="2">
   <advance width="711"/>
   <unicode hex="1D31"/>
+  <unicode hex="E124"/>
   <anchor x="355" y="540" name="L"/>
   <anchor x="398" y="620" name="O"/>
   <anchor x="657" y="1136" name="R"/>

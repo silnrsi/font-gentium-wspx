@@ -2,6 +2,7 @@
 <glyph name="UpArrwhd" format="2">
   <advance width="899"/>
   <unicode hex="2227"/>
+  <unicode hex="E414"/>
   <outline>
     <contour>
       <point x="821" y="154"/>

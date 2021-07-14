@@ -2,6 +2,7 @@
 <glyph name="Perpendicular" format="2">
   <advance width="1011"/>
   <unicode hex="27C2"/>
+  <unicode hex="E411"/>
   <outline>
     <contour>
       <point x="476" y="947"/>

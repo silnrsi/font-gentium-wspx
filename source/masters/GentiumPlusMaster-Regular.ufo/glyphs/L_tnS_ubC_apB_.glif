@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="LtnSubCapB" format="2">
   <advance width="788"/>
+  <unicode hex="E321"/>
   <anchor x="370" y="-260" name="L"/>
   <anchor x="370" y="622" name="U"/>
   <outline>

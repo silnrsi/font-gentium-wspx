@@ -2,6 +2,7 @@
 <glyph name="SubTwo" format="2">
   <advance width="673"/>
   <unicode hex="2082"/>
+  <unicode hex="E202"/>
   <anchor x="337" y="-280" name="L"/>
   <anchor x="337" y="580" name="U"/>
   <outline>

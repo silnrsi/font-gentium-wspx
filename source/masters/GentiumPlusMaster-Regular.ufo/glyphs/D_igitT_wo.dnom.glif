@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="DigitTwo.dnom" format="2">
   <advance width="530"/>
+  <unicode hex="E212"/>
   <outline>
     <contour>
       <point x="441" y="0" type="line"/>

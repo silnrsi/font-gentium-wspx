@@ -2,6 +2,7 @@
 <glyph name="UpDwnArrw" format="2">
   <advance width="1000"/>
   <unicode hex="2195"/>
+  <unicode hex="E535"/>
   <outline>
     <contour>
       <point x="568" y="-325" type="line"/>

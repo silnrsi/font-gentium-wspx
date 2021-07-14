@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="FracSlash.frac" format="2">
   <advance width="156"/>
+  <unicode hex="E01A"/>
   <outline>
     <contour>
       <point x="-242" y="3" type="curve"/>

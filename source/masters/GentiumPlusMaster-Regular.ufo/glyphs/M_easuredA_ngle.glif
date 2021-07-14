@@ -2,6 +2,7 @@
 <glyph name="MeasuredAngle" format="2">
   <advance width="1031"/>
   <unicode hex="2221"/>
+  <unicode hex="E412"/>
   <outline>
     <contour>
       <point x="149" y="40" type="curve"/>

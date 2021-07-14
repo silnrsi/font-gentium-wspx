@@ -873,6 +873,23 @@
       <key>shiftY</key>
       <integer>0</integer>
     </dict>
+    <key>subfromsup</key>
+    <dict>
+      <key>adjustMetrics</key>
+      <integer>0</integer>
+      <key>manAdjustX</key>
+      <integer>0</integer>
+      <key>manAdjustY</key>
+      <integer>0</integer>
+      <key>scaleX</key>
+      <integer>1</integer>
+      <key>scaleY</key>
+      <integer>1</integer>
+      <key>shiftX</key>
+      <integer>0</integer>
+      <key>shiftY</key>
+      <integer>-820</integer>
+    </dict>
     <key>subscript</key>
     <dict>
       <key>adjustMetrics</key>

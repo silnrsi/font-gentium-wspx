@@ -2,6 +2,7 @@
 <glyph name="SEArrw" format="2">
   <advance width="1975"/>
   <unicode hex="2198"/>
+  <unicode hex="E538"/>
   <outline>
     <contour>
       <point x="1545" y="-59" type="line"/>

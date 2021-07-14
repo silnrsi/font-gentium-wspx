@@ -2,6 +2,7 @@
 <glyph name="NotGTSgn" format="2">
   <advance width="899"/>
   <unicode hex="226F"/>
+  <unicode hex="E409"/>
   <outline>
     <contour>
       <point x="838" y="625" type="curve"/>

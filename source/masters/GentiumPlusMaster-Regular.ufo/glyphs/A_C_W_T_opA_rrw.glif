@@ -2,6 +2,7 @@
 <glyph name="ACWTopArrw" format="2">
   <advance width="1660"/>
   <unicode hex="21B6"/>
+  <unicode hex="E53B"/>
   <outline>
     <contour>
       <point x="417" y="254" type="curve"/>

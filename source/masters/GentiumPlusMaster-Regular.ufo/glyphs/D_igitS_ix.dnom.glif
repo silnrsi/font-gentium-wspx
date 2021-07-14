@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="DigitSix.dnom" format="2">
   <advance width="530"/>
+  <unicode hex="E216"/>
   <outline>
     <contour>
       <point x="254" y="-14" type="curve" smooth="yes"/>

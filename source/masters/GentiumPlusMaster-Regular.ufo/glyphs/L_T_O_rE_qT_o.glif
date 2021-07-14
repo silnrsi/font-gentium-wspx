@@ -2,6 +2,7 @@
 <glyph name="LTOrEqTo" format="2">
   <advance width="899"/>
   <unicode hex="2264"/>
+  <unicode hex="E408"/>
   <outline>
     <contour>
       <point x="754" y="376" type="line"/>

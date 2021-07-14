@@ -2,6 +2,7 @@
 <glyph name="LftRtArrw" format="2">
   <advance width="1975"/>
   <unicode hex="2194"/>
+  <unicode hex="E534"/>
   <outline>
     <contour>
       <point x="1269" y="256" type="line"/>

@@ -2,6 +2,7 @@
 <glyph name="ACWBottomArrw" format="2">
   <advance width="1660"/>
   <unicode hex="21BA"/>
+  <unicode hex="E53C"/>
   <outline>
     <contour>
       <point x="703" y="-30" type="curve" smooth="yes"/>

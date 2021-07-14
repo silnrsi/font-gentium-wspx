@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ModCapF" format="2">
   <advance width="685"/>
+  <unicode hex="E125"/>
   <anchor x="336" y="540" name="L"/>
   <anchor x="336" y="1450" name="U"/>
   <outline>

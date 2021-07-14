@@ -2,6 +2,7 @@
 <glyph name="BallotMrk" format="2">
   <advance width="1220"/>
   <unicode hex="2717"/>
+  <unicode hex="E600"/>
   <outline>
     <contour>
       <point x="95" y="1093" type="curve"/>

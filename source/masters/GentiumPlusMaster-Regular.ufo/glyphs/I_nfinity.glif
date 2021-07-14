@@ -2,6 +2,7 @@
 <glyph name="Infinity" format="2">
   <advance width="1354"/>
   <unicode hex="221E"/>
+  <unicode hex="E40F"/>
   <outline>
     <contour>
       <point x="407" y="310"/>

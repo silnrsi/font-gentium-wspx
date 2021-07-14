@@ -2,6 +2,7 @@
 <glyph name="SupRtParen" format="2">
   <advance width="454"/>
   <unicode hex="207E"/>
+  <unicode hex="E027"/>
   <outline>
     <contour>
       <point x="50" y="431" type="line"/>

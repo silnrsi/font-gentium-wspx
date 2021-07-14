@@ -2,6 +2,7 @@
 <glyph name="GrSubSmGamma" format="2">
   <advance width="688"/>
   <unicode hex="1D67"/>
+  <unicode hex="E342"/>
   <anchor x="344" y="-600" name="L"/>
   <anchor x="358" y="444" name="U"/>
   <outline>

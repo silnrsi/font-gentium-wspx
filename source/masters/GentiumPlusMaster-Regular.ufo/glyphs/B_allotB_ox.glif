@@ -2,6 +2,7 @@
 <glyph name="BallotBox" format="2">
   <advance width="1220"/>
   <unicode hex="2610"/>
+  <unicode hex="E603"/>
   <outline>
     <contour>
       <point x="164" y="164" type="line"/>

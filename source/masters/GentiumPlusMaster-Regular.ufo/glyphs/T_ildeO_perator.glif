@@ -2,6 +2,7 @@
 <glyph name="TildeOperator" format="2">
   <advance width="840"/>
   <unicode hex="223C"/>
+  <unicode hex="E40C"/>
   <outline>
     <contour>
       <point x="731" y="560"/>

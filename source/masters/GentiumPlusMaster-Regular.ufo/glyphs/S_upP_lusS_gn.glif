@@ -2,6 +2,7 @@
 <glyph name="SupPlusSgn" format="2">
   <advance width="602"/>
   <unicode hex="207A"/>
+  <unicode hex="E020"/>
   <outline>
     <contour>
       <point x="547" y="970"/>
