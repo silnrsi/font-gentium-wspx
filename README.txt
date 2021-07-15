@@ -10,6 +10,8 @@ This is a custom font project for WSP based on [Gentium Plus - Regular](http://s
 
 Some of these additions will be integrated into a future version of the main Gentium project. Others are unique to this WSP variant.
 
+This project includes only one style - Regular - and does not include WOFF or WOFF2 web fonts.
+
 ***Note that this is a special custom variant of Gentium Plus and is not a good source on which to base derivative fonts. Please base derivatives on the [original Gentium project](http://software.sil.org/gentium).***
 
 The original README contents for Gentium Plus are below:

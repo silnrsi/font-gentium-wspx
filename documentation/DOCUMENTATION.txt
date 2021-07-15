@@ -1,11 +1,11 @@
 DOCUMENTATION
-Charis SIL
-==========
+Gentium Plus WSP
+================
 
-The documentation for this project is listed in index.html.
+Documentation for this variant of Gentium is in three files in this folder:
 
-There are also PDF versions in the `pdf` folder.
+- *WSPExtensions.xlsx* - Spreadsheet with a line for each added symbol and examples of potential contexts
+- *WSPExtensions.pdf* - PDF version
+- *WSPCharTable.xlsx* - Alternate spreadsheet showing the organization of the added symbols
 
-These are produced from markdown sources (in `source`) using pandoc,
-weasyprint, and custom python scripts. See the `makedocs` shell script
-in the main project folder.
+Information on general use, and documentation for the main Gentium project, can be found on the [Gentium web site](https:/software.sil.org/gentium).
