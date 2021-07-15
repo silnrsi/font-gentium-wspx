@@ -50,6 +50,12 @@ Reserved Font Names and would have to be named something like "Grace Foo".
 
 (This should list both major and minor changes, most recent first.)
 
+### 15 July 2021 (SIL WSTech Team) Gentium Plus WSP version 6.060
+
+***Note that this is a special custom variant of Gentium Plus and is not a good source on which to base derivative fonts. Please base derivatives on the original Gentium project (http://software.sil.org/gentium).***
+
+- Added additional superscript and subscript letters, numerals, and symbols for WSP. These are encoded in the Unicode Private Use Area (U+E000..U+E612).
+
 ### 2 July 2021 (SIL WSTech Team) Gentium Plus version 6.001
 
 - Reverted font Postscript name to that used in v5 and earlier to avoid problems with unrecognized fonts when opening older documents.
