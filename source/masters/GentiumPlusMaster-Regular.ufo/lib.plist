@@ -5291,6 +5291,7 @@
     <string>SupLTSgn</string>
     <string>SupGTOrEqTo</string>
     <string>SupLTOrEqTo</string>
+    <string>SupNotGTSgn</string>
     <string>SupNotLTSgn</string>
     <string>SupFullStop</string>
     <string>SupComma</string>
@@ -5362,6 +5363,7 @@
     <string>SubLTSgn</string>
     <string>SubGTOrEqTo</string>
     <string>SubLTOrEqTo</string>
+    <string>SubNotGTSgn</string>
     <string>SubNotLTSgn</string>
     <string>SubFullStop</string>
     <string>SubComma</string>
@@ -13845,6 +13847,8 @@
     <string>uniE222</string>
     <key>SubNine</key>
     <string>uni2089</string>
+    <key>SubNotGTSgn</key>
+    <string>uniE22E</string>
     <key>SubNotLTSgn</key>
     <string>uniE22F</string>
     <key>SubOne</key>
@@ -13919,6 +13923,8 @@
     <string>uniE022</string>
     <key>SupNine</key>
     <string>uni2079</string>
+    <key>SupNotGTSgn</key>
+    <string>uniE02E</string>
     <key>SupNotLTSgn</key>
     <string>uniE02F</string>
     <key>SupOne</key>

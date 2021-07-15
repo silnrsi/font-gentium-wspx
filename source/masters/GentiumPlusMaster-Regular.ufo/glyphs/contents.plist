@@ -8408,6 +8408,8 @@
   <string>S_ubM_ultS_gn.glif</string>
   <key>SubNine</key>
   <string>S_ubN_ine.glif</string>
+  <key>SubNotGTSgn</key>
+  <string>S_ubN_otG_T_S_gn.glif</string>
   <key>SubNotLTSgn</key>
   <string>S_ubN_otL_T_S_gn.glif</string>
   <key>SubOne</key>
@@ -8482,6 +8484,8 @@
   <string>S_upM_ultS_gn.glif</string>
   <key>SupNine</key>
   <string>S_upN_ine.glif</string>
+  <key>SupNotGTSgn</key>
+  <string>S_upN_otG_T_S_gn.glif</string>
   <key>SupNotLTSgn</key>
   <string>S_upN_otL_T_S_gn.glif</string>
   <key>SupOne</key>

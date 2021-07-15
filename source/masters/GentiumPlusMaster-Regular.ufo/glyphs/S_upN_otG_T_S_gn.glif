@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="SupNotGTSgn" format="2">
+  <advance width="629"/>
+  <unicode hex="E02E"/>
+  <outline>
+    <contour>
+      <point x="592" y="1005" type="curve"/>
+      <point x="575" y="1019" type="line"/>
+      <point x="107" y="1169" type="line"/>
+      <point x="90" y="1157"/>
+      <point x="64" y="1135"/>
+      <point x="43" y="1120" type="curve"/>
+      <point x="55" y="1097" type="line"/>
+      <point x="450" y="971" type="line"/>
+      <point x="64" y="847" type="line"/>
+      <point x="57" y="834"/>
+      <point x="44" y="794"/>
+      <point x="38" y="779" type="curve"/>
+      <point x="55" y="764" type="line"/>
+      <point x="560" y="924" type="line"/>
+      <point x="568" y="942"/>
+      <point x="587" y="990"/>
+    </contour>
+    <contour>
+      <point x="156" y="710" type="curve"/>
+      <point x="525" y="1213" type="line"/>
+      <point x="505" y="1233" type="line"/>
+      <point x="476" y="1227"/>
+      <point x="428" y="1216"/>
+      <point x="402" y="1203" type="curve"/>
+      <point x="34" y="700" type="line"/>
+      <point x="51" y="679" type="line"/>
+      <point x="74" y="685"/>
+      <point x="139" y="699"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.18,0.16,0.78,1</string>
+    </dict>
+  </lib>
+</glyph>
