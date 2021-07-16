@@ -1,6 +1,6 @@
 FONTLOG
-Gentium Plus
-============
+Gentium Plus WSP
+================
 
 This file provides detailed information on the Gentium Plus family of fonts.
 This information should be distributed along with the Gentium Plus fonts and
