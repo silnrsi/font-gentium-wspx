@@ -7,12 +7,12 @@ DOCDIR = ["documentation"]
 STANDARDS = 'references/v5'
 #STANDARDS = 'references/b1'
 
-APPNAME = 'GentiumPlus'
+APPNAME = 'GentiumPlusWSP'
 familyname = APPNAME
 DEBPKG = 'fonts-sil-gentium-wsp'
 
 # Get VERSION and BUILDLABEL from Regular UFO; must be first function call:
-getufoinfo('source/masters/' + familyname + 'Master-Regular' + '.ufo')
+getufoinfo('source/masters/' + GentiumPlusMaster-Regular' + '.ufo')
 
 ftmlTest('tools/ftml-smith.xsl')
 
@@ -26,40 +26,20 @@ cmds = []
 cmds.append(cmd('psfchangettfglyphnames ${SRC} ${DEP} ${TGT}', ['${DS:FILE}']))
 cmds.append(cmd('${TTFAUTOHINT} -n -W ${DEP} ${TGT}'))
 
-for dspace in ('WSP',):
-#for dspace in ('Roman',):
-#for dspace in ('Italic',):
-    designspace('source/' + familyname + dspace + '.designspace',
-#                target = process('${DS:FILENAME_BASE}.ttf',
-#                    cmd('psfchangettfglyphnames ${SRC} ${DEP} ${TGT}', ['${DS:FILE}'])),
-                target = process('${DS:FILENAME_BASE}.ttf', *cmds),
-                instances = ['Gentium Plus Regular'] if '--quick' in opts else None,
-#                ap = 'source/${DS:FILENAME_BASE}_ap.xml',
-#                classes = 'source/${DS:FAMILYNAME_NOSPC}_classes.xml', #fails for Book fonts
-                classes = 'source/classes.xml',
-                opentype = fea('source/${DS:FILENAME_BASE}.fea',
-                    master = 'source/opentype/main.feax',
-                    make_params = omitapps,
-                    depends = ('source/opentype/gsub.feax', 
-                        'source/opentype/gpos.feax', 
-                        'source/opentype/gdef.feax'),
-                    to_ufo = 'True' # copies to instance UFOs
-                    ),
-#                graphite = gdl('source/${DS:FILENAME_BASE}.gdl',
-#                    master = 'source/graphite/main.gdh',
-#                    make_params = omitapps,
-#                    params = '-e gdlerr-${DS:FILENAME_BASE}.txt',
-#                    depends = ('source/graphite/features.gdh', 
-#                        'source/graphite/pitches.gdh', 
-#                        'source/graphite/takes_lowProfile.gdh', 
-#                        'source/graphite/greek_recompose.gdh', 
-#                        'source/graphite/stddef.gdh')
-#                    ),
-#                woff = woff('web/${DS:FILENAME_BASE}.woff',
-#                    metadata=f'../source/{familyname}-WOFF-metadata.xml'),
-                version = VERSION,
-#                pdf=fret(params = '-r -oi')
-                )
+designspace('source/' + familyname + '.designspace',
+            target = process('${DS:FILENAME_BASE}.ttf', *cmds),
+            instances = ['Gentium Plus Regular'] if '--quick' in opts else None,
+            classes = 'source/classes.xml',
+            opentype = fea('source/${DS:FILENAME_BASE}.fea',
+                master = 'source/opentype/main.feax',
+                make_params = omitapps,
+                depends = ('source/opentype/gsub.feax', 
+                    'source/opentype/gpos.feax', 
+                    'source/opentype/gdef.feax'),
+                to_ufo = 'True' # copies to instance UFOs
+                ),
+            version = VERSION,
+            )
 
 def configure(ctx):
     ctx.find_program('ttfautohint')
