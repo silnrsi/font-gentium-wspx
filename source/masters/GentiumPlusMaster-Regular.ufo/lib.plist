@@ -531,7 +531,7 @@
     </dict>
   </dict>
   <key>com.schriftgestaltung.appVersion</key>
-  <string>3091</string>
+  <string>3095</string>
   <key>com.schriftgestaltung.customParameter.GSFont.Axis Mappings</key>
   <dict>
     <key>XXXX</key>
@@ -552,6 +552,12 @@
       <integer>800</integer>
     </dict>
   </dict>
+  <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
+  <array>
+    <string>/WSPSqrRoot/WSPCubeRoot 
+/Space/WSPQuadRoot i/WSPRootLineA i/WSPRootLineB 1/WSPRootLineC 0/WSPRootLineD///WSPRootLineE x/WSPRootLineF w/WSPRootLineG H/WSPRootLineH k/WSPRootLineI i/WSPRootLineJ i/WSPRootLineK i/WSPRootLineL i/WSPRootLineM i/WSPRootLineN i/WSPRootLineO i/WSPRootLineP///WSPRootLineQ/WSPRootLineEnd X</string>
+    <string>/WSPRootLineA</string>
+  </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesLastChange</key>
@@ -5442,6 +5448,27 @@
     <string>WSPPowerBillion</string>
     <string>WSPLtnSmLBaselineTail</string>
     <string>WSPLoop</string>
+    <string>WSPSqrRoot</string>
+    <string>WSPCubeRoot</string>
+    <string>WSPQuadRoot</string>
+    <string>WSPRootLineA</string>
+    <string>WSPRootLineB</string>
+    <string>WSPRootLineC</string>
+    <string>WSPRootLineD</string>
+    <string>WSPRootLineE</string>
+    <string>WSPRootLineF</string>
+    <string>WSPRootLineG</string>
+    <string>WSPRootLineH</string>
+    <string>WSPRootLineI</string>
+    <string>WSPRootLineJ</string>
+    <string>WSPRootLineK</string>
+    <string>WSPRootLineL</string>
+    <string>WSPRootLineM</string>
+    <string>WSPRootLineN</string>
+    <string>WSPRootLineO</string>
+    <string>WSPRootLineP</string>
+    <string>WSPRootLineQ</string>
+    <string>WSPRootLineEnd</string>
   </array>
   <key>public.postscriptNames</key>
   <dict>
@@ -14361,6 +14388,8 @@
     <string>uniE421</string>
     <key>WSPCircleSlash</key>
     <string>uniE422</string>
+    <key>WSPCubeRoot</key>
+    <string>uniEEE1</string>
     <key>WSPDblFlagSlash</key>
     <string>uniE424</string>
     <key>WSPEqualSlash</key>
@@ -14401,6 +14430,46 @@
     <string>uniE434</string>
     <key>WSPPowerThousandth</key>
     <string>uniE433</string>
+    <key>WSPQuadRoot</key>
+    <string>uniEEE2</string>
+    <key>WSPRootLineA</key>
+    <string>uniEEE3</string>
+    <key>WSPRootLineB</key>
+    <string>uniEEE4</string>
+    <key>WSPRootLineC</key>
+    <string>uniEEE5</string>
+    <key>WSPRootLineD</key>
+    <string>uniEEE6</string>
+    <key>WSPRootLineE</key>
+    <string>uniEEE7</string>
+    <key>WSPRootLineEnd</key>
+    <string>uniEEFF</string>
+    <key>WSPRootLineF</key>
+    <string>uniEEE8</string>
+    <key>WSPRootLineG</key>
+    <string>uniEEE9</string>
+    <key>WSPRootLineH</key>
+    <string>uniEEEA</string>
+    <key>WSPRootLineI</key>
+    <string>uniEEEB</string>
+    <key>WSPRootLineJ</key>
+    <string>uniEEEC</string>
+    <key>WSPRootLineK</key>
+    <string>uniEEED</string>
+    <key>WSPRootLineL</key>
+    <string>uniEEEE</string>
+    <key>WSPRootLineM</key>
+    <string>uniEEEF</string>
+    <key>WSPRootLineN</key>
+    <string>uniEEF0</string>
+    <key>WSPRootLineO</key>
+    <string>uniEEF1</string>
+    <key>WSPRootLineP</key>
+    <string>uniEEF2</string>
+    <key>WSPRootLineQ</key>
+    <string>uniEEF3</string>
+    <key>WSPSqrRoot</key>
+    <string>uniEEE0</string>
     <key>WSPSubBoxSlash</key>
     <string>uniE241</string>
     <key>WSPSubCircleSlash</key>

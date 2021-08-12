@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="WSPRootLineA" format="2">
+  <unicode hex="EEE3"/>
+  <outline>
+    <contour>
+      <point x="-500" y="1765" type="line"/>
+      <point x="-500" y="1650" type="line"/>
+      <point x="0" y="1650" type="line"/>
+      <point x="0" y="1765" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.85,0.26,0.06,1</string>
+    </dict>
+  </lib>
+</glyph>

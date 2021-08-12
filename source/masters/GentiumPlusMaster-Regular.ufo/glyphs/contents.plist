@@ -8922,6 +8922,8 @@
   <string>W_S_P_B_oxS_lash.glif</string>
   <key>WSPCircleSlash</key>
   <string>W_S_P_C_ircleS_lash.glif</string>
+  <key>WSPCubeRoot</key>
+  <string>W_S_P_C_ubeR_oot.glif</string>
   <key>WSPDblFlagSlash</key>
   <string>W_S_P_D_blF_lagS_lash.glif</string>
   <key>WSPEqualSlash</key>
@@ -8962,6 +8964,46 @@
   <string>W_S_P_P_owerT_housand.glif</string>
   <key>WSPPowerThousandth</key>
   <string>W_S_P_P_owerT_housandth.glif</string>
+  <key>WSPQuadRoot</key>
+  <string>W_S_P_Q_uadR_oot.glif</string>
+  <key>WSPRootLineA</key>
+  <string>W_S_P_R_ootL_ineA_.glif</string>
+  <key>WSPRootLineB</key>
+  <string>W_S_P_R_ootL_ineB_.glif</string>
+  <key>WSPRootLineC</key>
+  <string>W_S_P_R_ootL_ineC_.glif</string>
+  <key>WSPRootLineD</key>
+  <string>W_S_P_R_ootL_ineD_.glif</string>
+  <key>WSPRootLineE</key>
+  <string>W_S_P_R_ootL_ineE_.glif</string>
+  <key>WSPRootLineEnd</key>
+  <string>W_S_P_R_ootL_ineE_nd.glif</string>
+  <key>WSPRootLineF</key>
+  <string>W_S_P_R_ootL_ineF_.glif</string>
+  <key>WSPRootLineG</key>
+  <string>W_S_P_R_ootL_ineG_.glif</string>
+  <key>WSPRootLineH</key>
+  <string>W_S_P_R_ootL_ineH_.glif</string>
+  <key>WSPRootLineI</key>
+  <string>W_S_P_R_ootL_ineI_.glif</string>
+  <key>WSPRootLineJ</key>
+  <string>W_S_P_R_ootL_ineJ_.glif</string>
+  <key>WSPRootLineK</key>
+  <string>W_S_P_R_ootL_ineK_.glif</string>
+  <key>WSPRootLineL</key>
+  <string>W_S_P_R_ootL_ineL_.glif</string>
+  <key>WSPRootLineM</key>
+  <string>W_S_P_R_ootL_ineM_.glif</string>
+  <key>WSPRootLineN</key>
+  <string>W_S_P_R_ootL_ineN_.glif</string>
+  <key>WSPRootLineO</key>
+  <string>W_S_P_R_ootL_ineO_.glif</string>
+  <key>WSPRootLineP</key>
+  <string>W_S_P_R_ootL_ineP_.glif</string>
+  <key>WSPRootLineQ</key>
+  <string>W_S_P_R_ootL_ineQ_.glif</string>
+  <key>WSPSqrRoot</key>
+  <string>W_S_P_S_qrR_oot.glif</string>
   <key>WSPSubBoxSlash</key>
   <string>W_S_P_S_ubB_oxS_lash.glif</string>
   <key>WSPSubCircleSlash</key>
