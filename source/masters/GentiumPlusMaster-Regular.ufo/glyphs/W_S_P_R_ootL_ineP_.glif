@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="WSPRootLineP" format="2">
   <unicode hex="EEF2"/>
-  <anchor x="-482" y="1410" name="U"/>
-  <anchor x="-482" y="1050" name="_U"/>
   <outline>
-    <component base="CombOverline"/>
+    <contour>
+      <point x="50" y="1650" type="line"/>
+      <point x="60" y="1675"/>
+      <point x="78" y="1712"/>
+      <point x="84" y="1741" type="curve"/>
+      <point x="62" y="1765" type="line"/>
+      <point x="-4786" y="1765" type="line"/>
+      <point x="-4799" y="1739"/>
+      <point x="-4816" y="1704"/>
+      <point x="-4822" y="1675" type="curve"/>
+      <point x="-4800" y="1650" type="line"/>
+    </contour>
   </outline>
   <lib>
     <dict>

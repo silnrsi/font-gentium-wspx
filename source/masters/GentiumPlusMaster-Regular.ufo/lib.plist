@@ -555,8 +555,8 @@
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
   <array>
     <string>/WSPSqrRoot/WSPCubeRoot 
-/Space/WSPQuadRoot i/WSPRootLineA i/WSPRootLineB 1/WSPRootLineC 0/WSPRootLineD///WSPRootLineE x/WSPRootLineF w/WSPRootLineG H/WSPRootLineH k/WSPRootLineI i/WSPRootLineJ i/WSPRootLineK i/WSPRootLineL i/WSPRootLineM i/WSPRootLineN i/WSPRootLineO i/WSPRootLineP///WSPRootLineQ/WSPRootLineEnd X</string>
-    <string>/WSPRootLineA</string>
+/Space/WSPQuadRoot i/WSPRootLineA i/WSPRootLineB 1/WSPRootLineC 0/WSPRootLineD///WSPRootLineE x/WSPRootLineF w/WSPRootLineG H/WSPRootLineH k/WSPRootLineI i/WSPRootLineJ i/WSPRootLineK i/WSPRootLineL i/WSPRootLineM i/WSPRootLineN i/WSPRootLineO i/WSPRootLineP//d/WSPRootLineQ/WSPRootLineEnd X</string>
+    <string>/WSPRootLineEnd</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>
