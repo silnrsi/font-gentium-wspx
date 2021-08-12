@@ -1,6 +1,6 @@
 # Gentium Plus WSP [![Build Status](http://build.palaso.org/app/rest/builds/buildType:Fonts_GentiumWspx/statusIcon)](http://build.palaso.org/viewType.html?buildTypeId=Fonts_GentiumWspx&guest=1) 
 
-This is a custom font project for WSP based on [Gentium Plus - Regular](http://software.sil.org/gentium). It adds a variety of symbols, including many superscript and subscript letters and numerals. These are encoded in the Unicode Private Use Area (U+E000..U+E612). Details of added symbols and their encoding are in three files in the `documentation` folder:
+This is a custom font project for WSP based on [Gentium Plus - Regular](http://software.sil.org/gentium). It adds a variety of symbols, including many superscript and subscript letters and numerals. These are encoded in the Unicode Private Use Area (U+E000..U+E612,U+EEE0..U+EEFF). Details of added symbols and their encoding are in three files in the `documentation` folder:
 
 - *WSPExtensions.xlsx* - Spreadsheet with a line for each added symbol and examples of potential contexts
 - *WSPExtensions.pdf* - PDF version
