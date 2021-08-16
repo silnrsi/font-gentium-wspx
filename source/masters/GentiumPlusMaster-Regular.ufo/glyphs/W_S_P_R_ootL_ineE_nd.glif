@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="WSPRootLineEnd" format="2">
-  <advance width="311"/>
+  <advance width="371"/>
   <unicode hex="EEFF"/>
   <outline>
     <contour>
-      <point x="205" y="1712"/>
-      <point x="211" y="1741" type="curve"/>
-      <point x="189" y="1765" type="line"/>
-      <point x="-100" y="1765" type="line"/>
-      <point x="-123" y="1739"/>
-      <point x="-145" y="1701"/>
-      <point x="-157" y="1675" type="curve"/>
-      <point x="-135" y="1650" type="line"/>
-      <point x="171" y="1650" type="line"/>
-      <point x="181" y="1675"/>
+      <point x="265" y="1712"/>
+      <point x="271" y="1741" type="curve"/>
+      <point x="249" y="1765" type="line"/>
+      <point x="-40" y="1765" type="line"/>
+      <point x="-63" y="1739"/>
+      <point x="-85" y="1701"/>
+      <point x="-97" y="1675" type="curve"/>
+      <point x="-75" y="1650" type="line"/>
+      <point x="231" y="1650" type="line"/>
+      <point x="241" y="1675"/>
     </contour>
     <contour>
-      <point x="125" y="1380" type="line"/>
-      <point x="151" y="1388"/>
-      <point x="183" y="1408"/>
-      <point x="210" y="1431" type="curve"/>
-      <point x="210" y="1741" type="line"/>
-      <point x="183" y="1765" type="line"/>
-      <point x="157" y="1759"/>
-      <point x="123" y="1745"/>
-      <point x="100" y="1735" type="curve"/>
-      <point x="100" y="1402" type="line"/>
+      <point x="185" y="1380" type="line"/>
+      <point x="211" y="1388"/>
+      <point x="243" y="1408"/>
+      <point x="270" y="1431" type="curve"/>
+      <point x="270" y="1741" type="line"/>
+      <point x="243" y="1765" type="line"/>
+      <point x="217" y="1759"/>
+      <point x="183" y="1745"/>
+      <point x="160" y="1735" type="curve"/>
+      <point x="160" y="1402" type="line"/>
     </contour>
   </outline>
   <lib>

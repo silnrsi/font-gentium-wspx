@@ -3,16 +3,16 @@
   <unicode hex="EEEF"/>
   <outline>
     <contour>
-      <point x="50" y="1650" type="line"/>
-      <point x="60" y="1675"/>
-      <point x="78" y="1712"/>
-      <point x="84" y="1741" type="curve"/>
-      <point x="62" y="1765" type="line"/>
-      <point x="-3886" y="1765" type="line"/>
-      <point x="-3899" y="1739"/>
-      <point x="-3916" y="1704"/>
-      <point x="-3922" y="1675" type="curve"/>
-      <point x="-3900" y="1650" type="line"/>
+      <point x="210" y="1650" type="line"/>
+      <point x="220" y="1675"/>
+      <point x="238" y="1712"/>
+      <point x="244" y="1741" type="curve"/>
+      <point x="222" y="1765" type="line"/>
+      <point x="-3726" y="1765" type="line"/>
+      <point x="-3739" y="1739"/>
+      <point x="-3756" y="1704"/>
+      <point x="-3762" y="1675" type="curve"/>
+      <point x="-3740" y="1650" type="line"/>
     </contour>
   </outline>
   <lib>
