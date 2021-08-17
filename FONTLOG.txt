@@ -50,7 +50,7 @@ Reserved Font Names and would have to be named something like "Grace Foo".
 
 (This should list both major and minor changes, most recent first.)
 
-### 12 August 2021 (SIL WSTech Team) Gentium Plus WSP version 6.070
+### 17 August 2021 (SIL WSTech Team) Gentium Plus WSP version 6.080
 
 ***Note that this is a special custom variant of Gentium Plus and is not a good source on which to base derivative fonts. Please base derivatives on the original Gentium project (http://software.sil.org/gentium).***
 

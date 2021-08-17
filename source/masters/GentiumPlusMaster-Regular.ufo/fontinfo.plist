@@ -13,7 +13,7 @@
   <key>familyName</key>
   <string>Gentium Plus Master</string>
   <key>openTypeHeadCreated</key>
-  <string>2021/08/16 12:16:39</string>
+  <string>2021/08/17 12:37:51</string>
   <key>openTypeHheaAscender</key>
   <integer>2250</integer>
   <key>openTypeHheaDescender</key>
@@ -83,7 +83,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>openTypeNameUniqueID</key>
   <string>SIL International: Gentium Plus Master Regular: 2021</string>
   <key>openTypeNameVersion</key>
-  <string>Version 6.070</string>
+  <string>Version 6.080</string>
   <key>openTypeOS2CodePageRanges</key>
   <array>
     <integer>0</integer>
@@ -232,7 +232,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>versionMajor</key>
   <integer>6</integer>
   <key>versionMinor</key>
-  <integer>70</integer>
+  <integer>80</integer>
   <key>xHeight</key>
   <integer>930</integer>
 </dict>
